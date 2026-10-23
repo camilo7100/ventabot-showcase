@@ -67,20 +67,16 @@ A complete sale, offline, with a "model" that only understands verbs
 ## Architecture (hexagonal, and enforced)
 
 ```mermaid
-flowchart LR
-    WA([WhatsApp]) -->|signed webhook| API[FastAPI<br/>dedup · outbox]
-    API --> P[Pipeline]
-    subgraph Turn [One conversational turn]
-        direction LR
-        P --> I[Interpreter<br/><i>LLM → closed Pydantic</i>]
-        I --> E[Executor<br/><i>pure Python rules</i>]
-        E --> R[Writer<br/><i>drafts the reply</i>]
-        R --> G{Output guards}
-    end
-    G -->|ok| OUT([Reply to customer])
-    G -->|invented price / account / promise| FB[Safe fallback<br/>or hand-off to a person]
-    E <--> DB[(Orders · state machine<br/>SQLite / Postgres)]
-    E -.-> CW[Chatwoot inbox<br/>human in the loop]
+flowchart TD
+    WA([WhatsApp]) -->|signed webhook| API["FastAPI<br/>dedup + outbox"]
+    API --> I["Interpreter<br/>LLM returns a closed Pydantic object"]
+    I --> E["Executor<br/>pure Python rules + order state machine"]
+    E --> R["Writer<br/>drafts the reply"]
+    R --> G{"Output guards"}
+    G -->|ok| OUT([Reply to the customer])
+    G -->|invented price, account or promise| FB["Safe fallback<br/>or hand-off to a person"]
+    E <--> DB[("Orders<br/>SQLite / Postgres")]
+    E -.-> CW["Chatwoot inbox<br/>human in the loop"]
 ```
 
 ```
