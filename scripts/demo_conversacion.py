@@ -11,6 +11,7 @@ lo decide Python. Esa es la tesis del proyecto: el modelo lee, las reglas decide
 
 from __future__ import annotations
 
+import argparse
 import sys
 from pathlib import Path
 
@@ -119,7 +120,15 @@ def construir() -> Pipeline:
 
 
 def main() -> None:
-    markdown = "--markdown" in sys.argv
+    if hasattr(sys.stdout, "reconfigure"):  # la consola de Windows arranca en cp1252
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    ap = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    ap.add_argument(
+        "--markdown", action="store_true", help="salida lista para pegar en un README"
+    )
+    markdown = ap.parse_args().markdown
     bot = construir()
     for mensaje in CLIENTA:
         respuesta = bot.ejecutar(CONV, mensaje).respuesta.texto_plano

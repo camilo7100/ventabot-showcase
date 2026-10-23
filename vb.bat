@@ -186,7 +186,7 @@ python -m pytest tests/ -m "not integracion"
 goto :eof
 
 :demo
-python scripts\demo.py
+python scripts\demo_conversacion.py
 goto :eof
 
 :server

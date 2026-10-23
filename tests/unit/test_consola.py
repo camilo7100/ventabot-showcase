@@ -83,7 +83,7 @@ SCRIPTS = [
     "f0_determinismo.py",
     "f1_check.py",
     "simular_whatsapp.py",
-    "demo.py",
+    "demo_conversacion.py",
 ]
 
 

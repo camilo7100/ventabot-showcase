@@ -58,7 +58,7 @@ ollama-setup:  ## Arranca Ollama con el perfil de poca VRAM (deja la terminal oc
 	ollama serve
 
 demo:  ## Una venta completa en la terminal, sin red
-	python3 scripts/demo.py
+	python3 scripts/demo_conversacion.py
 
 server:  ## Arranca el servidor (ocupa la terminal)
 	python3 -m uvicorn app.api.main:app --host 127.0.0.1 --port 8000 --reload
