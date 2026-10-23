@@ -1,0 +1,11 @@
+# Números de PRUEBA. REINICIAR-PRUEBAS.cmd borra SOLO estos, en el servidor:
+# su conversación, su ficha, sus pedidos y su contacto en Chatwoot. Las
+# clientas de verdad no se tocan.
+#
+# Uno por línea, con o sin el 57, sin espacios. Las líneas con # se ignoran.
+# Para agregar uno: escríbelo abajo y guarda. No hay que subir nada a GitHub:
+# el botón lee esta lista en tu PC cada vez.
+3001110002
+3001110001
+3001110003
+3001110011

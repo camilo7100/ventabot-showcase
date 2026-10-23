@@ -1,0 +1,12 @@
+# Los .bat DEBEN tener finales de línea de Windows (CRLF) o `goto` falla.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+# El resto, finales de línea de Unix.
+*.py   text eol=lf
+*.sh   text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.csv  text eol=lf
+Makefile text eol=lf

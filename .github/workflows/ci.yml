@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push: {branches: [main]}
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements-dev.txt
+
+      - name: Lint
+        run: ruff check app tests scripts
+
+      - name: Tipos
+        run: mypy app/domain app/graph
+
+      # Este paso es el que impide que la arquitectura se degrade con el tiempo.
+      - name: Arquitectura hexagonal
+        run: lint-imports
+
+      - name: Tests
+        run: pytest tests/ -m "not integracion" --cov=app/domain --cov=app/graph
+
+      # Fase 2 en adelante: descomenta cuando tengas el golden dataset.
+      # - name: Golden dataset (accuracy del NLU >= 90%)
+      #   run: pytest tests/golden -m integracion

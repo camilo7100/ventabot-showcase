@@ -1,0 +1,42 @@
+# Lo que NUNCA entra a la imagen de Docker.
+#
+# Una imagen se sube a un servidor y puede terminar en un registro público.
+# Si aquí se cuela el .env o la base, se van con ella las claves de Meta y de
+# Anthropic y los nombres, teléfonos y pedidos de clientas reales.
+
+# Secretos: se pasan al contenedor en tiempo de ejecución, nunca horneados.
+.env
+.env.*
+!.env.example
+docker/chatwoot/.env
+credenciales/
+credentials/
+
+# Datos vivos y personales: van en un volumen, no en la imagen.
+data/ventabot.db
+data/ventabot.db-*
+data/fotos/
+data/registros/
+data/webhook_log.jsonl
+data/webhook_fallido.json
+data/renders/
+
+# Experimentos que no son parte del bot (ver experimentos/README de cada uno).
+experimentos/
+
+# Entorno y cachés de esta máquina.
+.venv/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Historia y herramientas: no hacen falta para correr.
+.git/
+.github/
+.vscode/
+.idea/
+*.log

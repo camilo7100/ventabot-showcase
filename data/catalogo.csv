@@ -1,0 +1,6 @@
+sku,nombre,descripcion,categoria,precio_cop,iva_pct,dias_produccion,dias_produccion_max,anticipo_pct,anticipo_fijo_cop,huellitas,cantidad_minima,activo,imagen_url
+ANI-HUE-1,Anillo huellita x1,Anillo personalizado con 1 huellita. Plata Ley 925 y circones. Corazón y dedos del color que elijas. Hasta 5 nombres grabados al interior del aro.,anillos,200000,0,10,15,0.30,60000,1,1,TRUE,anillos_inspirado_en_tu_mascota
+ANI-HUE-2,Anillo huellita x2,Anillo personalizado con 2 huellitas. Plata Ley 925 y circones. Cada huellita puede ir de un color distinto. Hasta 5 nombres grabados al interior del aro.,anillos,250000,0,10,15,0.24,60000,2,1,TRUE,catalogo_anillo_2
+ANI-HUE-3,Anillo huellita x3,Anillo personalizado con 3 huellitas. Plata Ley 925 y circones. Cada huellita puede ir de un color distinto. Hasta 5 nombres grabados al interior del aro.,anillos,300000,0,10,15,0.20,60000,3,1,TRUE,catalogo_anillo_3
+CAD-HUE-1,Cadena huellita con nombre,Cadena personalizada en Plata Ley 925 con la huellita (corazón y 4 deditos) del color que elijas y el nombre de tu mascota grabado: hasta 2 nombres por lado.,cadenas,250000,0,10,15,0.26,65000,1,1,TRUE,cadena_2
+ANI-COR-1,Anillo de corazón,Anillo en Plata Ley 925 con un corazón de circón del color que elijas. Hasta 5 nombres grabados al interior del aro.,corazones,200000,0,10,15,0.30,60000,1,1,TRUE,anillo_corazon_1

@@ -1,0 +1,146 @@
+# VentaBot en producción: el bot, Chatwoot y su entrada (Caddy), siempre encendidos.
+#
+# ════════════════════════════════════════════════════════════════════════════
+# CÓMO SE USA (en el servidor, dentro de ~/ventabot)
+# ════════════════════════════════════════════════════════════════════════════
+#   docker compose up -d --build         levanta todo (y lo reinicia si se cae)
+#   docker compose ps                    ¿está sano? (columna STATUS)
+#   docker compose logs -f ventabot      mira qué está pasando
+#
+# Actualizar después de subir cambios a GitHub: ACTUALIZAR-SERVIDOR.cmd (en el
+# PC), que hace `git pull` y este mismo `up -d --build` en el servidor.
+#
+# ════════════════════════════════════════════════════════════════════════════
+# LO QUE NO ESTÁ EN GITHUB Y HAY QUE PONER A MANO EN EL SERVIDOR
+# ════════════════════════════════════════════════════════════════════════════
+#   .env                          las claves del bot (el mismo del PC)
+#   docker/chatwoot/.env          las de Chatwoot
+#   credenciales/erp-google.json  la llave de Google del ERP
+#
+# ════════════════════════════════════════════════════════════════════════════
+# POR QUÉ ASÍ
+# ════════════════════════════════════════════════════════════════════════════
+# - Una sola máquina, un solo archivo: el bot y Chatwoot se hablan por la red
+#   interna de Docker (el bot llega a `rails:3000`, Chatwoot a `ventabot:8000`)
+#   y hacia internet solo escucha Caddy (80 y 443).
+# - SQLite en un volumen, no Postgres: con el volumen de un negocio de una
+#   persona, un archivo es más que suficiente y se respalda copiándolo.
+# - La entrada es Caddy con el dominio propio (bot. y chat.lunajoyas.example):
+#   sin los topes del ngrok gratis, que queda solo para el PC (plan B).
+
+include:
+  # Chatwoot (rails, sidekiq, postgres, redis), con sus topes de memoria.
+  - docker/chatwoot/docker-compose.yml
+
+services:
+  ventabot:
+    build: .
+    image: ventabot:latest
+    env_file: .env
+    environment:
+      # Lo que en el servidor es distinto al PC. No son claves: van aquí y el
+      # .env se copia tal cual desde el PC.
+      SQLITE_PATH: /app/estado/ventabot.db
+      VENTAS_EXCEL: /app/estado/Ventas_LunaJoyas.xlsx
+      RESPALDOS_DIR: /app/estado/respaldos
+      CHATWOOT_URL: http://rails:3000
+      GOOGLE_SERVICE_ACCOUNT_JSON: /app/credenciales/erp-google.json
+      # Las direcciones propias (Caddy). Mandan sobre el PUBLIC_URL del .env,
+      # que en el PC sigue siendo el ngrok del plan B.
+      URL_PUBLICA: https://bot.lunajoyas.example
+      CHATWOOT_URL_PUBLICA: https://chat.lunajoyas.example
+      # Una respuesta por ráfaga (app/workers/agrupador.py): 20 s de calma (cada
+      # mensaje nuevo reinicia la cuenta), nunca más de 1 minuto desde el
+      # primero (Camilo, 12/10; antes 5 s y 15 s). El primer mensaje no espera.
+      AGRUPAR_SEGUNDOS: "20"
+      AGRUPAR_TOPE_SEGUNDOS: "60"
+      # La talla la confirma Lía en el panel antes del abono (29/09).
+      TALLA_LA_CONFIRMA_LIA: "true"
+      # Lo que se contesta desde el panel queda asignado en Chatwoot a Lía
+      # (su número en Chatwoot). Quien la atiende = quien está asignado (09/10).
+      CHATWOOT_PERSONA_DEL_PANEL: "4"
+      # Recordatorios antes del abono (04/10, ADR 0017). El de los 3 días va
+      # con la plantilla `retomar_diseno`: "true" SOLO cuando
+      # `vb recordatorios --plantilla` diga APPROVED.
+      # ENCENDIDOS el 14/10 con el diseño nuevo POR DÍAS (ADR 0029; Camilo lo
+      # aprobó). Para pausarlos: "false" aquí y desplegar. Las 5 plantillas (días
+      # 3 a 7) las aprobó Meta el 15/10: RECORDATORIO_CON_PLANTILLA "true".
+      # (`vb recordatorios --plantillas` dice cómo va cada una.)
+      RECORDATORIOS: "true"
+      RECORDATORIO_CON_PLANTILLA: "true"
+      RECORDATORIOS_MODO: dias
+      # La venta a Meta al confirmar un abono (13/10, ADR 0029): el dataset de
+      # mensajes de la cuenta de WhatsApp del bot.
+      META_DATASET_MENSAJES: "1234567890123456"
+      # La prueba de la primera respuesta (13/10): «¿Cómo se llama tu peludito?»
+      # con la foto del anillo grabado; los precios en su segundo mensaje.
+      APERTURA_PELUDITO: "true"
+      # Los modelos (29/09). Aquí y no en el .env: es una decisión, no una
+      # clave (las claves sí van en el .env). Medido con la misma conversación:
+      # GPT-6 luna sin razonar hizo el flujo limpio ~25 veces más barato que
+      # Haiku; cuando duda, la MISMA luna razonando un poco (low, ~7 s).
+      # Anthropic queda de respaldo: si GPT no contesta, contesta Claude.
+      IA_PRINCIPAL: openai
+      LLM_RESPALDO_BACKEND: openai
+      OPENAI_MODELO: gpt-6-luna
+      # 17/10 (Camilo: «luna es un modelo muy bueno tratado bien»): razonando
+      # un poco en todos los turnos (~$0,0015 por respuesta) y más cuando duda.
+      # Sol (20 veces más caro) no hizo diferencia en el banco de pruebas: los
+      # errores eran reglas del código, no falta de inteligencia.
+      OPENAI_ESFUERZO: low
+      OPENAI_MODELO_FUERTE: gpt-6-luna
+      OPENAI_ESFUERZO_FUERTE: medium
+      # El respaldo de Claude (12/10): Haiku 5.5, 10 veces más barato que Haiku
+      # 4.5 (US$0,10 / 0,50 por millón, como GPT-6 luna) y mejor. También mira
+      # las fotos cuando GPT no puede. Medido: 2,7-3,7 s con caché.
+      LLM_BASICO_MODEL: claude-haiku-5-5
+      LLM_VISION_MODEL: claude-haiku-5-5
+      LLM_FUERTE_MODEL: claude-sonnet-5-5
+    ports:
+      # Solo desde la propia máquina: desde internet entra por Caddy.
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - estado:/app/estado
+      - registros:/app/logs
+      - ./credenciales:/app/credenciales:ro
+    # Con tope, para que el bot tampoco pueda tumbar a Chatwoot.
+    mem_limit: 768m
+    restart: unless-stopped
+    # Al reiniciar o actualizar, el bot termina lo que estaba mandando y espera
+    # a que las copias pendientes lleguen a Chatwoot (hasta 20 s, 07/10). Docker
+    # por defecto lo mata a los 10 s: se pierden.
+    stop_grace_period: 30s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  # La entrada desde internet: bot.lunajoyas.example y chat.lunajoyas.example,
+  # con https solo (docker/caddy/Caddyfile). Sin topes, sin intermediarios.
+  caddy:
+    image: caddy:2-alpine
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./docker/caddy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_datos:/data
+      - caddy_config:/config
+    depends_on:
+      ventabot:
+        condition: service_healthy
+    mem_limit: 128m
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "3"
+
+volumes:
+  estado:
+  registros:
+  caddy_datos:
+  caddy_config:

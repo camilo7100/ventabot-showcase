@@ -1,0 +1,66 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+# Cualquier copia o variante del .env lleva claves: nunca al repo (19/09 aparecieron
+# «.env.respaldo-…» sueltos). La plantilla sí va.
+.env.*
+!.env.example
+*.respaldo*
+credentials/
+# La llave de Google del ERP, en el servidor: nunca al repositorio.
+credenciales/
+*.db
+*.sqlite3
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+/data/*.local.csv
+data/ventabot.db
+data/ventabot.db-wal
+data/ventabot.db-shm
+
+# Archivos de diagnóstico y logs: son temporales, cambian a cada ejecución y
+# hacen fallar el hook de espacios en blanco una y otra vez.
+diagnostico.txt
+salida.txt
+*.log
+data/webhook_fallido.json
+data/webhook_log.jsonl
+data/renders/
+docker/chatwoot/.env
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  LAS FOTOS DE LAS CLIENTAS NO ENTRAN AL REPOSITORIO. NUNCA.
+# ═══════════════════════════════════════════════════════════════════════════
+#  data/fotos/ es donde caen las imagenes que mandan las clientas por WhatsApp:
+#  comprobantes de transferencia (con nombre, cuenta y monto), anillos sobre
+#  una regla, fotos de sus manos.
+#
+#  Son datos personales de terceros y ademas pesan megas. Un commit las mete en
+#  el historial PARA SIEMPRE: aunque se borren despues, siguen ahi y siguen
+#  viajando en cada clon del repositorio.
+#
+#  Esto es lo que hizo fallar el commit dos veces: una foto de 3,5 MB choco con
+#  el hook de archivos grandes. El hook hizo bien su trabajo.
+data/fotos/
+
+# Los .zip que Claude deja en el proyecto. Son copias del propio repositorio:
+# meterlos dentro de el es duplicar todo el codigo en cada commit. Y ademas
+# descomprimir uno viejo encima del repo pisa el trabajo nuevo: ya paso.
+Claude outputs/
+*.zip
+
+# Kits de usuarios externos: la llave NUNCA va a GitHub (externos/README.md)
+externos/**/llave
+externos/**/llave.pub
+externos/**/servidor_conocido
+
+# Charlas de prueba con el bot (scripts/charla.py): bases temporales
+charlas_prueba/

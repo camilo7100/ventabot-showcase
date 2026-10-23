@@ -1,0 +1,95 @@
+# Chatwoot para el PC de Lía. Un comando y a trabajar.
+#
+# ════════════════════════════════════════════════════════════════════════════
+# QUÉ ES ESTO Y QUÉ NO
+# ════════════════════════════════════════════════════════════════════════════
+# Es un CRM de conversaciones: una bandeja donde Lía ve todos los chats, quién
+# es cada clienta, qué le pidió y qué falta. El bot NO deja de atender: sigue
+# siendo el dueño del WhatsApp y va copiando aquí cada mensaje.
+#
+# Está pensado para correr EN EL PC, no en internet: sin dominio, sin
+# certificados, sin correo. Para producción de verdad hace falta más (ver
+# docs/sistema/05-chatwoot-y-operacion.md), pero para que Lía empiece a usarlo hoy, esto
+# sobra.
+#
+# ════════════════════════════════════════════════════════════════════════════
+# CÓMO SE LEVANTA
+# ════════════════════════════════════════════════════════════════════════════
+#     vb chatwoot        <- te dice el paso a paso y comprueba que va
+#
+# O a mano, desde esta carpeta:
+#     docker compose run --rm rails bundle exec rails db:chatwoot_prepare
+#     docker compose up -d
+#
+# La primera vez tarda: son ~2 GB de imágenes.
+# ════════════════════════════════════════════════════════════════════════════
+# TOPES DE MEMORIA (25/09/2026)
+# ════════════════════════════════════════════════════════════════════════════
+# En el servidor, Chatwoot y el bot comparten máquina. Sidekiq tiene fugas de
+# memoria documentadas (tras la v4.9.0 llegó a comerse la RAM y el swap). Con
+# un tope por servicio, si Chatwoot se desborda lo reinicia Docker y el bot
+# sigue vendiendo. Medido en reposo: sidekiq ~600 MB, rails ~400 MB,
+# postgres ~60 MB, redis ~6 MB.
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: chatwoot
+      POSTGRES_USER: chatwoot
+      # Cambiala si te da cosa. Solo escucha dentro de Docker.
+      POSTGRES_PASSWORD: chatwoot_local
+    mem_limit: 512m
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U chatwoot"]
+      interval: 10s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--requirepass", "chatwoot_local"]
+    mem_limit: 128m
+    volumes:
+      - redis:/data
+
+  rails:
+    image: chatwoot/chatwoot:v4.17.0
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    env_file: .env
+    # `ci` = un solo proceso web. Para un PC es lo correcto: el modo con
+    # varios workers se come la RAM sin ganar nada con veinte conversaciones.
+    entrypoint: docker/entrypoints/rails.sh
+    command: ["bundle", "exec", "rails", "s", "-b", "0.0.0.0", "-p", "3000"]
+    mem_limit: 1g
+    # Solo desde la propia máquina. Desde internet entra por el túnel, con https.
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - storage:/app/storage
+
+  sidekiq:
+    image: chatwoot/chatwoot:v4.17.0
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    env_file: .env
+    command: ["bundle", "exec", "sidekiq", "-C", "config/sidekiq.yml"]
+    mem_limit: 1200m
+    volumes:
+      - storage:/app/storage
+
+volumes:
+  postgres:
+  redis:
+  storage:

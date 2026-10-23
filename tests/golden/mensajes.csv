@@ -1,0 +1,82 @@
+mensaje,intencion,pregunta,sku,origen
+Hola,SALUDO,NINGUNA,,real
+buenas noches,SALUDO,NINGUNA,,real
+Hola buenas tardes,SALUDO,NINGUNA,,real
+hola quiero informacion,CATALOGO,NINGUNA,,real
+Que precio tiene el anillo?,CATALOGO,NINGUNA,,real
+cuanto vale,CATALOGO,NINGUNA,,real
+me pasas info porfa,CATALOGO,NINGUNA,,real
+Hola me interesa el anillo de huellitas,CATALOGO,NINGUNA,,real
+info del anillo de patitas,CATALOGO,NINGUNA,,real
+Quiero pedir el mio,COTIZAR,NINGUNA,,real
+quiero uno de 1 huellita,COTIZAR,NINGUNA,ANI-HUE-1,real
+1 huellita,COTIZAR,NINGUNA,ANI-HUE-1,real
+quiero el de 2 huellitas,COTIZAR,NINGUNA,ANI-HUE-2,real
+2 huellitas — $250.000,COTIZAR,NINGUNA,ANI-HUE-2,real
+quiero 3 huellitas para mis tres gatos,COTIZAR,NINGUNA,ANI-HUE-3,real
+el de tres patitas,COTIZAR,NINGUNA,ANI-HUE-3,real
+lo quiero,CONFIRMAR,NINGUNA,,real
+listo confirmo,CONFIRMAR,NINGUNA,,real
+dale hagamoslo,CONFIRMAR,NINGUNA,,real
+si porfa,CONFIRMAR,NINGUNA,,real
+Perfecto lo quiero asi,CONFIRMAR,NINGUNA,,real
+No se mi talla necesito la guia,TALLA,COMO_MEDIR_TALLA,,real
+"Responde a esta pregunta , si soy talla 6 o no, no se mi talla",TALLA,NINGUNA,,real
+soy talla 7,TALLA,NINGUNA,,real
+creo que soy talla 6,TALLA,NINGUNA,,real
+mi talla es 8.5,TALLA,NINGUNA,,real
+como mido mi talla?,TALLA,COMO_MEDIR_TALLA,,real
+no tengo regla,TALLA,NINGUNA,,real
+Sabes tu talla de anillo?,TALLA,NINGUNA,,real
+quiero corazon lila y dedos morados,PERSONALIZAR,NINGUNA,,real
+-quiero corazón lila y dedos morados,PERSONALIZAR,NINGUNA,,real
+corazon rojo dedos blancos,PERSONALIZAR,NINGUNA,,real
+la quiero toda negra,PERSONALIZAR,NINGUNA,,real
+Nombre rocky,PERSONALIZAR,NINGUNA,,real
+que diga Luna y Simba,PERSONALIZAR,NINGUNA,,real
+el grabado seria Michi,PERSONALIZAR,NINGUNA,,real
+sin grabado gracias,PERSONALIZAR,NINGUNA,,real
+En que material esta hecho?,PREGUNTA,MATERIAL,,real
+es plata de verdad?,PREGUNTA,MATERIAL,,real
+de que material es,PREGUNTA,MATERIAL,,real
+que garantia tiene?,PREGUNTA,GARANTIA,,real
+tiene garantia,PREGUNTA,GARANTIA,,real
+y si se le cae una piedra?,PREGUNTA,GARANTIA,,real
+valor envio,PREGUNTA,ENVIO,,real
+cuanto cuesta el envio a Bogota,PREGUNTA,ENVIO,,real
+hacen envios a todo el pais?,PREGUNTA,ENVIO,,real
+de donde son ustedes,PREGUNTA,ENVIO,,real
+Medios de pago?,PREGUNTA,MEDIOS_DE_PAGO,,real
+como puedo pagar,PREGUNTA,MEDIOS_DE_PAGO,,real
+aceptan tarjeta?,PREGUNTA,MEDIOS_DE_PAGO,,real
+tienen nequi,PREGUNTA,MEDIOS_DE_PAGO,,real
+lo hay en color dorado?,PREGUNTA,COLOR_DORADO,,real
+lo tienen en oro,PREGUNTA,COLOR_DORADO,,real
+manejan enchapado dorado?,PREGUNTA,COLOR_DORADO,,real
+Manejan contraentrega?,PREGUNTA,CONTRAENTREGA,,real
+puedo pagar cuando lo reciba,PREGUNTA,CONTRAENTREGA,,real
+pago contra entrega?,PREGUNTA,CONTRAENTREGA,,real
+cuanto se demora,PREGUNTA,TIEMPO_ENTREGA,,real
+en cuantos dias llega,PREGUNTA,TIEMPO_ENTREGA,,real
+cuanto tarda la fabricacion,PREGUNTA,TIEMPO_ENTREGA,,real
+ya hice la transferencia,PAGO,NINGUNA,,real
+listo ya abone los 60,PAGO,NINGUNA,,real
+acabo de consignar,PAGO,NINGUNA,,real
+te mando el comprobante,PAGO,NINGUNA,,real
+como va mi pedido?,ESTADO,NINGUNA,,real
+ya esta listo mi anillo,ESTADO,NINGUNA,,real
+alguna novedad de mi pedido,ESTADO,NINGUNA,,real
+hace cuanto pedi el mio,ESTADO,NINGUNA,,real
+ya lo enviaron?,ESTADO,NINGUNA,,real
+quiero hablar con una persona,HUMANO,NINGUNA,,real
+me pueden llamar,HUMANO,NINGUNA,,real
+necesito hablar con alguien,HUMANO,NINGUNA,,real
+hay un asesor,HUMANO,NINGUNA,,real
+me llego partido,QUEJA,NINGUNA,,real
+se le cayo una piedra a la semana,QUEJA,NINGUNA,,real
+no me ha llegado y ya paso un mes,QUEJA,NINGUNA,,real
+quiero devolverlo,QUEJA,NINGUNA,,real
+gracias!!,OTRO,NINGUNA,,real
+😍😍,OTRO,NINGUNA,,real
+ok,OTRO,NINGUNA,,real
+bendiciones,OTRO,NINGUNA,,real

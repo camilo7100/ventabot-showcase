@@ -1,0 +1,100 @@
+[project]
+name = "ventabot"
+version = "0.1.0"
+description = "Bot de ventas WhatsApp/Instagram con anticipo, saldo y estados de producción"
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+# ---------------------------------------------------------------------------
+[tool.ruff]
+line-length = 90
+target-version = "py311"
+exclude = ["migrations"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF", "ASYNC", "S", "DTZ"]
+ignore = [
+  "S101",   # assert: los usamos como contratos internos y en tests
+  "RUF001", # caracteres unicode ambiguos: escribimos en español
+  "RUF002",
+  "RUF003",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S", "B011"]
+"scripts/*" = ["S", "E402"]
+
+# ---------------------------------------------------------------------------
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+markers = [
+  "integracion: requiere servicios externos (Ollama, Postgres, red)",
+  "lento: tarda más de 1 segundo",
+]
+
+# ---------------------------------------------------------------------------
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+no_implicit_optional = true
+plugins = ["pydantic.mypy"]
+
+[[tool.mypy.overrides]]
+module = ["gspread.*", "ollama.*", "arq.*"]
+ignore_missing_imports = true
+
+# ---------------------------------------------------------------------------
+# Hace CUMPLIR la arquitectura hexagonal en CI. `lint-imports` falla el build
+# si alguien importa un adaptador desde el dominio.
+[tool.importlinter]
+root_package = "app"
+
+[[tool.importlinter.contracts]]
+name = "El dominio no conoce a nadie"
+type = "forbidden"
+source_modules = ["app.domain"]
+forbidden_modules = ["app.adapters", "app.graph", "app.api", "app.infra", "app.workers"]
+
+[[tool.importlinter.contracts]]
+name = "Los adaptadores no conocen el grafo ni la API"
+type = "forbidden"
+source_modules = ["app.adapters"]
+forbidden_modules = ["app.graph", "app.api", "app.workers"]
+
+# `app.infra.container` es la RAÍZ DE COMPOSICIÓN: el único módulo con permiso
+# para conocer a todos los demás, porque su trabajo es justamente elegir qué
+# implementación se enchufa. Por eso está arriba en la pila, encima de workers.
+# Los módulos de infra que no aparecen aquí (settings, logging, reglas) son
+# utilidades hoja y no tienen restricción.
+[[tool.importlinter.contracts]]
+name = "Capas"
+type = "layers"
+layers = [
+    "app.api",
+    "app.infra.container",
+    "app.workers",
+    "app.conversacion",
+    "app.graph",
+    "app.adapters",
+    "app.domain",
+]
+
+# El gestor conversacional solo puede conocer el DOMINIO. Ni repositorios, ni
+# HTTP, ni WhatsApp: todo eso entra inyectado (`Mundo`, el intérprete, el
+# ejecutor). Es lo que permite probar los siete casos de conversación sin red
+# y en milisegundos, y lo que hará que cambiar de modelo de lenguaje o de base
+# de datos no toque una línea de la lógica de la conversación.
+[[tool.importlinter.contracts]]
+name = "El gestor conversacional no conoce adaptadores"
+type = "forbidden"
+source_modules = ["app.conversacion"]
+forbidden_modules = ["app.adapters", "app.api", "app.infra", "app.workers"]

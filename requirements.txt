@@ -1,0 +1,58 @@
+# Núcleo — necesario para correr tests y demo HOY.
+langgraph==1.2.11
+pydantic==2.13.4
+pydantic-settings==2.13.1
+pyyaml==6.0.3
+# El Excel de ventas que se actualiza solo (ADR 0015).
+openpyxl==3.1.5
+
+# El QR del centro de mando (/panel/todo): se dibuja AQUÍ, en SVG, para
+# que el enlace —que lleva la llave del panel— no salga hacia ningún
+# servicio de QR de internet. Estaba instalado de rebote, sin declarar.
+segno==1.6.6
+
+# API (Fase 1)
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+httpx==0.28.1
+python-multipart==0.0.20
+
+# Persistencia del grafo (Fase 1)
+# Guarda los checkpoints de la conversación en disco: si el servidor se
+# reinicia, el cliente sigue donde iba en vez de empezar de cero.
+langgraph-checkpoint-sqlite==3.1.1
+
+# LLM local (Fase 2)
+ollama==0.6.2
+
+# Encoger las fotos antes de darselas al modelo de vision (Fase 5).
+# No es un extra: una foto de movil son 4000x3000, y el modelo la trocea en
+# miles de trozos. Reducirla al lado maximo que necesita bajo la mediana de
+# 47 s a unos pocos segundos, midiendo con `vb ojos`.
+pillow==12.2.0
+
+# La previsualizacion tinta la foto pixel a pixel: eso es numpy, no Pillow.
+# NO estaba aqui y funcionaba de milagro, porque Anaconda lo trae de serie en
+# el equipo de Camilo. En un servidor limpio (Docker, un VPS) el bot arrancaba
+# bien, vendia bien, y solo fallaba al enseñarle a la clienta como le va a
+# quedar el anillo — el momento exacto en que se decide la compra.
+numpy==2.4.6
+
+# Trazas: qué decidió el bot en cada turno, turno por turno (vb trazas).
+langsmith==0.11.1
+# El ERP en Google Sheets (app/adapters/erp): autenticación de la cuenta de
+# servicio. `requests` lo pide google-auth para renovar el token.
+google-auth==2.56.3
+requests==2.34.2
+
+# El modelo de RESCATE, para los turnos que el de 3B no entiende. Solo se usa
+# si LLM_FUERTE_MODEL es un modelo claude-*; sin eso, el paquete se instala y
+# no se importa nunca (el import es perezoso, dentro del adaptador).
+anthropic==1.5.0
+# Respaldo si Anthropic no contesta (29/09). Apagado sin OPENAI_API_KEY.
+openai==3.20.0
+
+# ⚠️ Lo de la NUBE está en requirements-cloud.txt, y no aquí a propósito:
+#    Postgres, la cola, Google Sheets. Hoy no lo importa ninguna línea de
+#    código, y tenerlo aquí costaba nueve paquetes pesados en cada instalación.
+#    Cuando entre de verdad al código, sube a este archivo.

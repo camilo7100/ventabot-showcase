@@ -1,0 +1,65 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  FLETES — ESTE ARCHIVO ES EL ÚNICO SITIO DONDE VIVE EL PRECIO DEL ENVÍO
+# ═══════════════════════════════════════════════════════════════════════════
+#
+#  Camilo: para cambiar un flete NO hay que tocar código. Se abre este archivo
+#  con Excel o con el Bloc de notas, se cambia el número y se guarda. El bot
+#  lo lee al arrancar.
+#
+#  COLUMNAS
+#    ciudad           Como la escribe la clienta. Da igual tildes y mayúsculas:
+#                     "medellin", "MEDELLÍN" y "Medellin" encuentran la misma fila.
+#    departamento     Solo informativo. Sirve para que tú te ubiques.
+#    zona             Solo informativo (LOCAL / PRINCIPAL / INTERMEDIA / ESPECIAL).
+#    costo_cop        Lo que se le cobra de envío. Sin puntos ni signo de pesos.
+#    dias_transporte  Días de transportadora DESPUÉS de fabricado.
+#
+#  HOY: UNA SOLA TARIFA NACIONAL DE $17.500 (Camilo, 29/09)
+#    Lía cobra lo mismo a todo el país, así que todas las filas dicen 17500.
+#    OJO: este archivo es solo la SEMILLA. En el servidor el flete vive en la
+#    base y se cambia desde el panel (Envíos), sin tocar código. Antes había precios por ciudad y el bot llegó a
+#    cotizarle $8.000 a Bogotá: le cobraba de menos a media Colombia.
+#    Las filas de ciudad se quedan para el día que sí se diferencie; para
+#    hacerlo, se cambia el número de esa ciudad y ya.
+#
+#  LA FILA (DEFECTO)
+#    Es la que se cobra cuando la clienta todavía no ha dicho su ciudad, o
+#    cuando escribe un pueblo que no está en esta lista. Nunca se borra.
+#
+#  Las líneas que empiezan por # son comentarios: el bot las ignora.
+# ═══════════════════════════════════════════════════════════════════════════
+ciudad,departamento,zona,costo_cop,dias_transporte
+(DEFECTO),,NACIONAL,17500,4
+Bogotá,Cundinamarca,LOCAL,17500,1
+Soacha,Cundinamarca,LOCAL,17500,1
+Chía,Cundinamarca,LOCAL,17500,1
+Medellín,Antioquia,PRINCIPAL,17500,2
+Cali,Valle del Cauca,PRINCIPAL,17500,2
+Barranquilla,Atlántico,PRINCIPAL,17500,3
+Cartagena,Bolívar,PRINCIPAL,17500,3
+Bucaramanga,Santander,PRINCIPAL,17500,2
+Floridablanca,Santander,PRINCIPAL,17500,2
+Girón,Santander,PRINCIPAL,17500,2
+Piedecuesta,Santander,PRINCIPAL,17500,2
+Pereira,Risaralda,PRINCIPAL,17500,2
+Manizales,Caldas,PRINCIPAL,17500,2
+Armenia,Quindío,PRINCIPAL,17500,2
+Cúcuta,Norte de Santander,PRINCIPAL,17500,3
+Ibagué,Tolima,PRINCIPAL,17500,2
+Villavicencio,Meta,PRINCIPAL,17500,2
+Santa Marta,Magdalena,PRINCIPAL,17500,3
+Neiva,Huila,INTERMEDIA,17500,3
+Popayán,Cauca,INTERMEDIA,17500,3
+Pasto,Nariño,INTERMEDIA,17500,4
+Montería,Córdoba,INTERMEDIA,17500,4
+Sincelejo,Sucre,INTERMEDIA,17500,4
+Valledupar,Cesar,INTERMEDIA,17500,4
+Tunja,Boyacá,INTERMEDIA,17500,3
+Riohacha,La Guajira,ESPECIAL,17500,5
+Quibdó,Chocó,ESPECIAL,17500,6
+Florencia,Caquetá,ESPECIAL,17500,6
+Mocoa,Putumayo,ESPECIAL,17500,6
+Arauca,Arauca,ESPECIAL,17500,6
+Yopal,Casanare,ESPECIAL,17500,4
+Leticia,Amazonas,ESPECIAL,17500,8
+San Andrés,San Andrés,ESPECIAL,17500,7

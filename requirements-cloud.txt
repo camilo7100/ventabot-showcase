@@ -1,0 +1,37 @@
+# Lo que hará falta EN LA NUBE, y hoy no se usa en ninguna línea de código.
+#
+# ══════════════════════════════════════════════════════════════════════════════
+# POR QUÉ ESTÁN AQUÍ Y NO EN requirements.txt
+# ══════════════════════════════════════════════════════════════════════════════
+# Ninguno de estos paquetes lo importa NADIE todavía — se comprobó buscando
+# `import` de cada uno en app/, scripts/ y tests/, y no aparecen. Estaban en
+# requirements.txt como recordatorio de las fases siguientes, y el recordatorio
+# costaba nueve paquetes pesados (psycopg con binarios, las tres librerías de
+# Google, redis con hiredis) en cada instalación y en cada imagen de Docker.
+#
+# Separarlos no tira ninguna decisión: lo que hace falta el día del despliegue
+# está escrito aquí, con el mismo pin y el mismo porqué. Se instalan con:
+#
+#     pip install -r requirements-cloud.txt
+#
+# Y cuando alguno entre de verdad en el código —el primer `import gspread`—
+# sube a requirements.txt, que es donde vive lo que el bot necesita para
+# arrancar.
+
+# Google Sheets (Fase 2). `adapters/repositories/sheets.py` es hoy un esqueleto
+# con NotImplementedError: no importa ninguna de las tres.
+gspread==6.2.1
+google-api-python-client==2.198.0
+google-auth==2.56.3
+
+# Producción (Fase 6): Postgres como fuente de verdad y una cola de verdad.
+langgraph-checkpoint-postgres==3.1.2
+psycopg[binary,pool]==3.3.4
+sqlalchemy==2.0.52
+alembic==1.19.1
+arq==0.28.0
+# ⚠️ arq 0.28.0 declara redis[hiredis]<6. Pinear redis 8.x rompe la resolución
+#    de dependencias (verificado con pip install --dry-run). Si algún día
+#    necesitas redis 6+, toca cambiar de cola (taskiq o dramatiq) — está
+#    anotado en docs/adr/0004-cola-de-tareas.md.
+redis[hiredis]==5.3.1

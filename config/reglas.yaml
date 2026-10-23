@@ -1,0 +1,103 @@
+# ===========================================================================
+# REGLAS DE NEGOCIO — fuente única de verdad
+# ===========================================================================
+# Todo lo marcado [POR DEFINIR] es una SUPOSICIÓN razonable que puse yo para
+# que el sistema funcione hoy. Cámbialo cuando tengas el dato real: son datos,
+# no código, así que ajustarlos NO requiere tocar Python ni volver a desplegar.
+#
+# Documentación de cada regla y por qué elegí ese valor: docs/REGLAS_NEGOCIO.md
+# ===========================================================================
+
+negocio:
+  nombre: "Mi Negocio"                 # [POR DEFINIR] nombre comercial exacto
+  nit: "000000000-0"                   # [POR DEFINIR]
+  ciudad_origen: "Bogotá"              # [POR DEFINIR] desde dónde despachas
+  zona_horaria: "America/Bogota"
+  moneda: "COP"
+  # El display name de WhatsApp debe coincidir EXACTAMENTE con tu sitio web
+  # y solo se puede cambiar cada 30 días. Piénsalo bien antes de registrarlo.
+  whatsapp_display_name: "Mi Negocio"  # [POR DEFINIR]
+
+horario:
+  # [POR DEFINIR] Fuera de horario el bot sigue respondiendo (es automático),
+  # pero el handoff humano se encola en vez de notificar de inmediato.
+  dias_habiles: [1, 2, 3, 4, 5, 6]     # 1=lunes ... 7=domingo
+  hora_inicio: "08:00"
+  hora_fin: "18:00"
+  # Sábado con horario reducido
+  sabado_hora_fin: "13:00"
+
+impuestos:
+  iva_pct: 0.19                        # [POR DEFINIR] 19% general en Colombia.
+                                       # Si eres NO responsable de IVA, pon 0.00
+  responsable_de_iva: true             # [POR DEFINIR] confírmalo con tu contador
+  incluir_iva_en_precio_mostrado: true # [POR DEFINIR] true = el cliente ve el
+                                       # precio con IVA; false = se suma aparte
+
+pagos:
+  anticipo_pct_default: 0.50           # [POR DEFINIR] 50% para arrancar producción
+  # El anticipo se redondea HACIA ARRIBA a este múltiplo para que el número
+  # que ve el cliente quede limpio ($109.000 en vez de $108.650).
+  redondeo_anticipo_cop: 1000
+  # El saldo SIEMPRE es total - anticipo. Nunca total * 0.5.
+  # (Redondear ambos por separado produce un descuadre contable permanente.)
+
+  vigencia_link_horas: 72              # [POR DEFINIR] cuánto dura el link de pago
+  vigencia_cotizacion_horas: 48        # [POR DEFINIR] después se re-cotiza
+
+  # Recordatorios automáticos si no paga
+  recordatorio_anticipo_horas: [24, 72]      # [POR DEFINIR]
+  recordatorio_saldo_horas: [24, 48, 96]     # [POR DEFINIR]
+  # Tras el último recordatorio sin pago, el pedido se cancela solo.
+  cancelar_por_falta_de_anticipo_horas: 168  # [POR DEFINIR] 7 días
+
+  metodos_habilitados: ["CREDIT_CARD", "PSE", "NEQUI"]  # [POR DEFINIR]
+
+  # --- Anti-fraude (ver PLAN_MAESTRO §6.3) ---
+  # El anticipo SIEMPRE por link. La transferencia directa solo se acepta para
+  # el saldo, y aun así nunca aprueba sola: queda EN_REVISION.
+  permitir_transferencia_para_anticipo: false   # [POR DEFINIR] recomiendo false
+  permitir_transferencia_para_saldo: true       # [POR DEFINIR]
+  # Por encima de este monto, ninguna transferencia se aprueba sin verla en
+  # el extracto bancario, sin excepción.
+  umbral_verificacion_manual_cop: 300000        # [POR DEFINIR]
+  # Los días de mayor fraude con comprobantes falsos en Colombia.
+  no_despachar_contra_comprobante_dias: [5, 6, 7]  # vie, sáb, dom [POR DEFINIR]
+  usar_monto_con_digitos_unicos: true
+
+envios:
+  # Tabla completa en data/fletes.csv
+  costo_default_cop: 15000             # [POR DEFINIR] si la ciudad no está en la tabla
+  envio_gratis_desde_cop: 400000       # [POR DEFINIR] 0 = nunca hay envío gratis
+  transportadora_default: "Interrapidísimo"  # [POR DEFINIR]
+
+produccion:
+  dias_produccion_default: 7           # [POR DEFINIR] si el producto no lo especifica
+  # Días hábiles que se suman al tiempo de producción para el transporte.
+  dias_transporte_default: 3           # [POR DEFINIR]
+  # Colchón que se suma a la fecha prometida al cliente, para no incumplir.
+  colchon_dias: 2                      # [POR DEFINIR]
+  capacidad_pedidos_simultaneos: 20    # [POR DEFINIR] 0 = sin límite
+
+conversacion:
+  # Tras cuántos fallos seguidos de comprensión se escala a un humano.
+  fallos_nlu_antes_de_handoff: 2
+  # Cuánto dura el silencio del bot cuando un humano toma la conversación.
+  duracion_handoff_horas: 4            # [POR DEFINIR]
+  # Cuántos productos se muestran de una vez (WhatsApp: máx. 10 filas de lista).
+  max_productos_por_mensaje: 10
+  # Si el cliente no responde, se cierra la conversación (no el pedido).
+  timeout_conversacion_horas: 24
+  # Cantidad máxima que el bot acepta sin pasar por un humano.
+  cantidad_maxima_automatica: 20       # [POR DEFINIR] pedidos mayores = handoff
+  # Descuento máximo que el bot puede dar solo. 0 = ninguno (recomendado en v1).
+  descuento_maximo_automatico_pct: 0.0 # [POR DEFINIR]
+
+datos_personales:
+  # Ley 1581 de 2012 (habeas data). Ver PLAN_MAESTRO §1 decisión 11.
+  version_politica: "v1-2026-08"
+  url_politica: "https://tu-dominio.com/privacidad"   # [POR DEFINIR]
+  # Se pide autorización explícita en el primer contacto y se guarda con fecha.
+  pedir_consentimiento_en_primer_contacto: true
+  retencion_chats_meses: 24            # [POR DEFINIR]
+  retencion_comprobantes_meses: 60     # [POR DEFINIR] 5 años, criterio contable

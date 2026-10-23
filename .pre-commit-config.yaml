@@ -1,0 +1,41 @@
+# Instalar una vez:  pre-commit install
+# Correr a mano:     pre-commit run --all-files
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-toml
+      - id: check-added-large-files
+        # 5 MB: los videos del producto viven en el repositorio a proposito.
+        # Son material de venta, cambian dos veces al ano y pesan menos que
+        # cualquier dependencia; montar un almacen externo para dos archivos
+        # seria mas infraestructura que negocio. El tope estaba en 3 MB y dos
+        # videos ya lo pasaban (24/09).
+        args: ["--maxkb=5120"]
+      - id: check-merge-conflict
+      - id: detect-private-key
+      # Evita subir el .env por accidente. Es la fuga más común.
+      - id: forbid-new-submodules
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.14.5
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+
+  - repo: local
+    hooks:
+      - id: import-linter
+        name: arquitectura hexagonal (import-linter)
+        # Con su propio entorno: `lint-imports` a secas solo funciona con el
+        # .venv activado, y `python` a secas no existe en Windows (24/09). Asi
+        # el hook corre igual en este PC y en el servidor.
+        entry: lint-imports
+        language: python
+        additional_dependencies: ["import-linter==2.6"]
+        pass_filenames: false
+        always_run: true

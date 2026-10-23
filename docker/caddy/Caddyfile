@@ -1,0 +1,20 @@
+# La entrada desde internet, con el dominio propio (desde el 25/09/2026).
+#
+# Caddy saca y renueva solo los certificados https (Let's Encrypt). Reemplaza al
+# ngrok gratis, que tenía tope de 1 GB y 20.000 peticiones al mes compartido
+# entre el bot y Chatwoot: era lo único que podía cortar la entrada de mensajes.
+#
+#   bot.lunajoyas.example   -> el bot: Meta (webhook), el panel, las fotos, /health
+#   chat.lunajoyas.example  -> Chatwoot, donde atiende Lía (web y app del celular)
+#
+# Los dos registros A viven en el DNS de SiteGround, apuntando a la IP del
+# servidor. Y los puertos 80 y 443 abiertos en Oracle (lista de seguridad) y
+# en el iptables del servidor.
+
+bot.lunajoyas.example {
+	reverse_proxy ventabot:8000
+}
+
+chat.lunajoyas.example {
+	reverse_proxy rails:3000
+}

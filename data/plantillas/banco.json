@@ -1,0 +1,8510 @@
+{
+ "fuente": "marketing-lia/guias/plantillas-para-meta.json",
+ "generado": "2026-10-22",
+ "plantillas": [
+  {
+   "nombre": "abono_reenviar_datos",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💳 Si necesitas de nuevo los datos para el abono de {{2}}, toca el botón y te los envío al instante ✨",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [
+    "Enviar datos",
+    "Ya pagué"
+   ],
+   "encabezado": null,
+   "grupo": "4.3",
+   "ola": 1
+  },
+  {
+   "nombre": "abono_datos_a_la_mano",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💳 Te dejo a la mano el abono de {{2}} para el anillo {{3}}. Toca el botón y te envío los datos de pago al instante.",
+   "variables": [
+    "nombre",
+    "monto",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Enviar datos",
+    "Ya pagué"
+   ],
+   "encabezado": null,
+   "grupo": "4.3",
+   "ola": 1
+  },
+  {
+   "nombre": "datos_pago_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Aquí tienes de nuevo todo listo para el abono de {{2}}: toca el botón y te envío los datos de pago en un momento.",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [
+    "Enviar datos",
+    "Ya pagué"
+   ],
+   "encabezado": null,
+   "grupo": "4.3",
+   "ola": 1
+  },
+  {
+   "nombre": "datos_pago_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Si se te perdieron los datos de la transferencia de tu anillo {{2}}, dime y te los reenvío enseguida.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Reenvíame los datos",
+    "Ya pagué"
+   ],
+   "encabezado": null,
+   "grupo": "4.3",
+   "ola": 1
+  },
+  {
+   "nombre": "abono_reserva_pendiente",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Tu anillo {{2}} quedó reservado y solo falta el abono de {{3}} para entrar al taller. ¿Te reenvío los datos para transferir?",
+   "variables": [
+    "nombre",
+    "codigo",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$60.000"
+   ],
+   "botones": [
+    "Ya pagué",
+    "Reenvíame los datos",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "4.5",
+   "ola": 4
+  },
+  {
+   "nombre": "abono_dia3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🐾 Tu pedido {{2}} sigue guardado esperando el abono de {{3}}. ¿Lo hacemos hoy para empezar tu anillo?",
+   "variables": [
+    "nombre",
+    "codigo",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$60.000"
+   ],
+   "botones": [
+    "Ya pagué",
+    "Reenvíame los datos",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "4.5",
+   "ola": 4
+  },
+  {
+   "nombre": "abono_cupo_reservado",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Guardamos el anillo de {{2}} y solo falta el abono de {{3}} para entrar al taller. ¿Lo hacemos hoy?",
+   "variables": [
+    "nombre",
+    "mascota",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna",
+    "$60.000"
+   ],
+   "botones": [
+    "Ya pagué",
+    "Reenvíame los datos",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "4.5",
+   "ola": 4
+  },
+  {
+   "nombre": "abono_dia7_ultimo",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Tu pedido {{2}} lleva varios días esperando el abono. Si aún lo quieres, dime y lo retomamos; si no, lo liberamos sin problema.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Lo quiero",
+    "Libéralo"
+   ],
+   "encabezado": null,
+   "grupo": "4.6",
+   "ola": 4
+  },
+  {
+   "nombre": "abono_ultimo_sin_presion",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Te escribo por el anillo {{2}}: sigue guardado, pero no puedo mantenerlo mucho más sin el abono. Si aún lo quieres, dime y lo retomamos.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Lo quiero",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "4.6",
+   "ola": 4
+  },
+  {
+   "nombre": "abono_ultimo_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌿 El cupo de tu anillo {{2}} sigue guardado, pero lo liberaremos pronto si no llega el abono. ¿Lo retomamos o lo dejamos por ahora?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Lo retomamos",
+    "Déjalo por ahora"
+   ],
+   "encabezado": null,
+   "grupo": "4.6",
+   "ola": 4
+  },
+  {
+   "nombre": "abono_prometio_hoy",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Quedamos pendientes de tu transferencia de {{2}} para el anillo {{3}}. Cuando la hagas, mándame el comprobante por aquí 💍",
+   "variables": [
+    "nombre",
+    "monto",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Ya la hice",
+    "Necesito ayuda"
+   ],
+   "encabezado": null,
+   "grupo": "4.7",
+   "ola": 1
+  },
+  {
+   "nombre": "abono_prometio_fecha",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🗓️ Te recuerdo con cariño la transferencia que quedamos para el {{2}}. Apenas la hagas, mándame el comprobante y arrancamos tu anillo 💍",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [
+    "Ya la hice",
+    "Cambiar la fecha"
+   ],
+   "encabezado": null,
+   "grupo": "4.7",
+   "ola": 1
+  },
+  {
+   "nombre": "abono_promesa_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🗓️ Hoy es el día que quedamos para el abono de tu anillo {{2}}. Cuando lo hagas, mándame el comprobante y arrancamos.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Ya lo hice",
+    "Cambiar la fecha"
+   ],
+   "encabezado": null,
+   "grupo": "4.7",
+   "ola": 1
+  },
+  {
+   "nombre": "abono_promesa_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Solo paso a recordarte, sin afán, la transferencia que acordamos para el {{2}}. Estoy pendiente para empezar tu anillo.",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [
+    "Ya pagué",
+    "Necesito más tiempo"
+   ],
+   "encabezado": null,
+   "grupo": "4.7",
+   "ola": 1
+  },
+  {
+   "nombre": "separar_sin_talla",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 📏 Sin afán con la talla: puedes separar tu anillo con el abono de {{2}} y enviarme la talla después 💍",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Ayúdame a medirla",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "4.8",
+   "ola": 1
+  },
+  {
+   "nombre": "talla_sin_afan",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌿 Sin afán: tu anillo {{2}} sigue reservado. Cuando tengas tu talla, me la envías y seguimos ✨",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "4.8",
+   "ola": 1
+  },
+  {
+   "nombre": "separa_sin_talla_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 📏 Si la talla es lo que te frena, puedes separar tu anillo con el abono de {{2}} y enviarme la medida después; yo te ayudo a sacarla.",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Ayúdame a medirla",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "4.8",
+   "ola": 1
+  },
+  {
+   "nombre": "separa_sin_talla_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌿 No tienes que saber tu talla hoy para empezar: separas con {{2}} y la definimos con calma antes de fabricar.",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "4.8",
+   "ola": 1
+  },
+  {
+   "nombre": "abono_pedido_liberado",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌿 Liberamos tu pedido {{2}} porque no recibimos el abono. Cuando quieras retomarlo, escríbenos y lo armamos de nuevo 💍",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "4.9",
+   "ola": 2
+  },
+  {
+   "nombre": "cierre_inactividad",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌿 Como no tuvimos respuesta, dejamos en pausa tu pedido {{2}}. Escríbenos cuando quieras y lo retomamos 💍",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "4.9",
+   "ola": 2
+  },
+  {
+   "nombre": "pedido_liberado_retomar",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌿 Liberamos el cupo del pedido {{2}} porque no llegó el abono. Tu diseño sigue guardado: si quieres retomarlo, respóndeme y lo armamos de nuevo.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Quiero retomarlo",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "4.9",
+   "ola": 2
+  },
+  {
+   "nombre": "abono_dificultad_pago",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💬 ¿Tuviste algún inconveniente para hacer el abono de {{2}}? Cuéntame y lo resolvemos 🤍",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [
+    "Sí, necesito ayuda",
+    "Ya lo hice",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "4.10",
+   "ola": 2
+  },
+  {
+   "nombre": "abono_ayuda_para_pagar",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 ¿Te pudimos ayudar con el abono de {{2}}? Si algo te dificultó pagar, cuéntame y lo resolvemos.",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [
+    "Sí, necesito ayuda",
+    "Ya lo hice",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "4.10",
+   "ola": 2
+  },
+  {
+   "nombre": "abono_ayuda_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💬 Si algo hizo difícil el abono de tu anillo {{2}} (la cuenta, el monto o el banco), cuéntame y buscamos cómo resolverlo.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Necesito ayuda",
+    "Ya lo hice",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "4.10",
+   "ola": 2
+  },
+  {
+   "nombre": "pedido_gracias",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Gracias por tu compra, {{1}}! 💜 Tu pedido {{2}} quedó registrado. Te iré contando cada avance de tu anillo 🐾",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "4.11",
+   "ola": 2
+  },
+  {
+   "nombre": "pedido_registrado_bienvenida",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Gracias por tu pedido, {{1}}! 💜 Quedó registrado con el código {{2}} y te escribiré con cada avance de tu anillo.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "4.11",
+   "ola": 2
+  },
+  {
+   "nombre": "pedido_gracias_1",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Gracias, {{1}}! 💜 Recibimos tu pedido {{2}}. En cuanto confirmemos el abono entra a la lista del taller y te cuento cada avance.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "4.11",
+   "ola": 2
+  },
+  {
+   "nombre": "comprobante_recibido",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✅ Recibimos tu comprobante del pedido {{2}}. Lo estamos verificando y en breve te confirmo 💍",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.1",
+   "ola": 1
+  },
+  {
+   "nombre": "comprobante_en_revision",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✅ Tu comprobante del pedido {{2}} ya está en revisión. En cuanto lo confirmemos te escribo para seguir con tu anillo.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.1",
+   "ola": 1
+  },
+  {
+   "nombre": "comprobante_ok_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🙌 Ya tenemos tu comprobante del pedido {{2}}. Lo verificamos con calma y te escribo apenas quede confirmado.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.1",
+   "ola": 1
+  },
+  {
+   "nombre": "comprobante_ok_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📩 Recibimos la imagen de tu pago. Estamos revisando que se vea reflejado y enseguida te confirmo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.1",
+   "ola": 1
+  },
+  {
+   "nombre": "comprobante_ilegible",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📷 No logré leer bien tu comprobante del pedido {{2}}. ¿Me lo envías otra vez en una captura clara, con el valor y la fecha?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.2",
+   "ola": 1
+  },
+  {
+   "nombre": "comprobante_enviar_de_nuevo",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📷 Para confirmar el pedido {{2}} necesito el comprobante completo, con valor y fecha visibles. ¿Me lo envías otra vez?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.2",
+   "ola": 1
+  },
+  {
+   "nombre": "comprobante_otra_vez_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📷 La foto del comprobante del pedido {{2}} no se alcanza a leer. ¿Me la envías de nuevo, bien enfocada y completa?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.2",
+   "ola": 1
+  },
+  {
+   "nombre": "comprobante_otra_vez_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Para confirmar tu pago necesito ver el comprobante completo, con el valor, la fecha y la referencia. ¿Me lo reenvías?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Aquí te lo envío"
+   ],
+   "encabezado": null,
+   "grupo": "5.2",
+   "ola": 1
+  },
+  {
+   "nombre": "comprobante_valor_menor",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🔎 Tu transferencia del pedido {{2}} llegó por menos del abono de {{3}}. ¿Me ayudas con la diferencia para confirmarlo?",
+   "variables": [
+    "nombre",
+    "codigo",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$60.000"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.3",
+   "ola": 2
+  },
+  {
+   "nombre": "pago_faltante_diferencia",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🔎 Tu pago del pedido {{2}} llegó por menos del abono de {{3}}. Si me ayudas con la diferencia lo dejo confirmado.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$60.000"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.3",
+   "ola": 2
+  },
+  {
+   "nombre": "pago_menor_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🔎 Tu pago del pedido {{2}} llegó por un valor menor al abono de {{3}}. Cuando completes la diferencia lo dejamos confirmado.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$60.000"
+   ],
+   "botones": [
+    "Ya completé",
+    "Necesito ayuda"
+   ],
+   "encabezado": null,
+   "grupo": "5.3",
+   "ola": 2
+  },
+  {
+   "nombre": "comprobante_no_aparece",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🔎 Aún no veo reflejado el pago del pedido {{2}}. Si ya lo hiciste, envíame el comprobante y lo reviso enseguida 🤍",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.4",
+   "ola": 1
+  },
+  {
+   "nombre": "comprobante_verificando",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ⏳ Seguimos verificando tu pago del pedido {{2}}. Gracias por tu paciencia, te confirmo apenas lo veamos reflejado 🤍",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.4",
+   "ola": 1
+  },
+  {
+   "nombre": "pago_no_visto_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🔎 Todavía no veo reflejado el pago del pedido {{2}}. A veces el banco tarda; si ya pagaste, envíame el comprobante y lo reviso.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Aquí te lo envío",
+    "Aún no he pagado"
+   ],
+   "encabezado": null,
+   "grupo": "5.4",
+   "ola": 1
+  },
+  {
+   "nombre": "pago_no_visto_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Estoy mirando la cuenta y aún no aparece tu transferencia del pedido {{2}}. ¿Me mandas el comprobante para ubicarla?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.4",
+   "ola": 1
+  },
+  {
+   "nombre": "comprobante_ya_pague",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌸 Me comentaste que ya pagaste el pedido {{2}}. ¿Me envías el comprobante por aquí para confirmarlo?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Aquí te lo envío",
+    "Aún no lo he hecho"
+   ],
+   "encabezado": null,
+   "grupo": "5.5",
+   "ola": 1
+  },
+  {
+   "nombre": "comprobante_esperando",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📩 Estoy pendiente del comprobante de tu pago del pedido {{2}}. Apenas lo envíes lo reviso y avanzamos 💍",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.5",
+   "ola": 1
+  },
+  {
+   "nombre": "pago_foto_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌸 Gracias por avisar que ya pagaste. Envíame la foto del comprobante por aquí y confirmo tu pedido {{2}}. Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Aquí te lo envío"
+   ],
+   "encabezado": null,
+   "grupo": "5.5",
+   "ola": 1
+  },
+  {
+   "nombre": "pago_foto_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Solo falta la imagen del comprobante para dejar confirmado tu pedido {{2}}. ¿Me la compartes?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.5",
+   "ola": 1
+  },
+  {
+   "nombre": "abono_confirmado",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Listo, {{1}}! ✅ Confirmamos tu abono de {{2}}. Tu anillo {{3}} ya entra a la lista del taller 💍 Te aviso cuando avance.",
+   "variables": [
+    "nombre",
+    "monto",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.6",
+   "ola": 1
+  },
+  {
+   "nombre": "abono_ok_1",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Abono confirmado, {{1}}! ✅ Tu anillo {{2}} ya está en la lista del taller. Te cuento apenas empiece a fabricarse.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.6",
+   "ola": 1
+  },
+  {
+   "nombre": "abono_ok_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Todo listo, {{1}} 💜 Confirmamos tu abono de {{2}}. Ahora afinamos los últimos detalles de tu anillo antes de fabricarlo.",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.6",
+   "ola": 1
+  },
+  {
+   "nombre": "saldo_confirmado",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Gracias, {{1}}! ✅ Confirmamos el pago completo del pedido {{2}}. Lo despachamos en breve y te paso la guía 🚚",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.7",
+   "ola": 1
+  },
+  {
+   "nombre": "saldo_confirmado_despachamos",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✅ Recibimos el pago completo del pedido {{2}}. Prepararemos el envío y te escribiremos con la guía en cuanto salga.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.7",
+   "ola": 1
+  },
+  {
+   "nombre": "saldo_ok_1",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Pago completo confirmado, {{1}}! ✅ Estamos preparando el envío de tu anillo {{2}} y te mando la guía en cuanto salga.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.7",
+   "ola": 1
+  },
+  {
+   "nombre": "saldo_ok_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Gracias, {{1}} 💜 Ya quedó confirmado el saldo de tu pedido {{2}}. Pronto tendrás tu anillo en las manos.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "5.7",
+   "ola": 1
+  },
+  {
+   "nombre": "talla_falta",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📏 Para fabricar tu anillo {{2}} solo nos falta tu talla. ¿Te mando la guía para medirla en casa?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Sí, mándala",
+    "Ya sé mi talla",
+    "Ayúdame"
+   ],
+   "encabezado": null,
+   "grupo": "6.1",
+   "ola": 1
+  },
+  {
+   "nombre": "talla_ultimo",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📏 Sin tu talla no podemos empezar el anillo {{2}}. ¿Quieres que te ayude a medirla hoy mismo?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Sí, ayúdame",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "6.1",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_talla_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📏 Tu abono ya está confirmado y solo falta tu talla para fabricar el anillo {{2}}. ¿Te mando la guía para medirla?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Sí, mándala",
+    "Ya sé mi talla",
+    "Ayúdame"
+   ],
+   "encabezado": null,
+   "grupo": "6.1",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_talla_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Sin tu talla no puedo empezar tu anillo {{2}}. Mándame la medida o una foto de un anillo tuyo sobre una regla y yo te ayudo.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.1",
+   "ola": 1
+  },
+  {
+   "nombre": "talla_confirmar",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Para tu anillo {{2}} tengo anotada la talla {{3}}. ¿Me confirmas que es correcta antes de empezar a fabricarlo?",
+   "variables": [
+    "nombre",
+    "codigo",
+    "talla"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "12"
+   ],
+   "botones": [
+    "Sí, es correcta",
+    "Quiero cambiarla"
+   ],
+   "encabezado": null,
+   "grupo": "6.2",
+   "ola": 1
+  },
+  {
+   "nombre": "talla_confirma_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📏 Antes de fabricar tu anillo {{2}}, ¿me confirmas que tu talla es la {{3}}? Después de empezar no es fácil cambiarla.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "talla"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "12"
+   ],
+   "botones": [
+    "Sí, está bien",
+    "Quiero cambiar algo"
+   ],
+   "encabezado": null,
+   "grupo": "6.2",
+   "ola": 1
+  },
+  {
+   "nombre": "talla_confirma_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Tengo anotada la talla {{2}} para tu pedido. Revísala por favor y dime si es correcta para empezar a fabricarlo.",
+   "variables": [
+    "nombre",
+    "talla"
+   ],
+   "ejemplos": [
+    "Laura",
+    "12"
+   ],
+   "botones": [
+    "Es correcta",
+    "Quiero cambiarla"
+   ],
+   "encabezado": null,
+   "grupo": "6.2",
+   "ola": 1
+  },
+  {
+   "nombre": "talla_confirma_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🔍 Confirmo contigo la talla {{2}} de tu anillo {{3}}; es el último dato antes de pasar al taller.",
+   "variables": [
+    "nombre",
+    "talla",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "12",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Sí, es esa",
+    "No, es otra"
+   ],
+   "encabezado": null,
+   "grupo": "6.2",
+   "ola": 1
+  },
+  {
+   "nombre": "talla_revisar_medida",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🔍 La medida que me enviaste para el pedido {{2}} no coincide con nuestras tallas. ¿La revisamos juntos por aquí?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.3",
+   "ola": 2
+  },
+  {
+   "nombre": "talla_revisar_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📏 La medida que me enviaste del pedido {{2}} no coincide con ninguna de nuestras tallas. ¿La medimos otra vez, paso a paso?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Sí, ayúdame"
+   ],
+   "encabezado": null,
+   "grupo": "6.3",
+   "ola": 2
+  },
+  {
+   "nombre": "talla_revisar_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌿 Creo que hubo un error al medir tu dedo para el pedido {{2}}. Te explico cómo hacerlo de nuevo y lo confirmamos.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.3",
+   "ola": 2
+  },
+  {
+   "nombre": "diseno_colores_pendiente",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🎨 Falta elegir los colores del anillo de {{2}}. ¿Te muestro otra vez el muestrario?",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Muéstramelo",
+    "Ya sé cuáles"
+   ],
+   "encabezado": null,
+   "grupo": "6.4",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_colores_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🎨 Para fabricar el anillo de {{2}} aún falta elegir los colores. ¿Te vuelvo a mostrar el muestrario?",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Muéstramelo",
+    "Ya sé cuáles"
+   ],
+   "encabezado": null,
+   "grupo": "6.4",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_colores_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💎 Tu anillo {{2}} ya casi entra al taller; solo necesito saber de qué color quieres cada huellita.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.4",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_colores_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Los más pedidos son negro, verde esmeralda, morado, fucsia, azul zafiro y blanco con rosa. ¿Cuál escoges para el anillo de {{2}}? Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Ya sé cuáles",
+    "Ayúdame a elegir"
+   ],
+   "encabezado": null,
+   "grupo": "6.4",
+   "ola": 1
+  },
+  {
+   "nombre": "diseno_nombres_pendiente",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} ✍️ ¿Qué nombre(s) grabamos por dentro del anillo? Escríbelos tal como quieres que queden 🐾",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.5",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_grabado_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✍️ Para tu anillo {{2}} me falta el texto del grabado. Escríbelo tal como quieres que quede, con mayúsculas y tildes.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.5",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_grabado_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🐾 ¿Qué nombres grabamos en tu anillo? Puedes poner hasta 5, un corazón o una fecha especial.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Ya te lo escribo",
+    "Ayúdame"
+   ],
+   "encabezado": null,
+   "grupo": "6.5",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_grabado_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Solo falta el grabado de tu pedido para empezar a fabricarlo. ¿Me dices cómo lo quieres?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.5",
+   "ola": 1
+  },
+  {
+   "nombre": "pendientes_para_fabricar",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Para fabricar tu anillo aún necesito: {{2}}. ¿Me los envías por aquí? Apenas los tenga, entra al taller.",
+   "variables": [
+    "nombre",
+    "pendientes"
+   ],
+   "ejemplos": [
+    "Laura",
+    "la talla y los colores"
+   ],
+   "botones": [
+    "Ya te los envío",
+    "Necesito ayuda"
+   ],
+   "encabezado": null,
+   "grupo": "6.6",
+   "ola": 1
+  },
+  {
+   "nombre": "pendientes_para_fabricar_b",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Tu pedido está listo para entrar al taller y solo faltan estos datos: {{2}}. Respóndeme por aquí y empezamos.",
+   "variables": [
+    "nombre",
+    "pendientes"
+   ],
+   "ejemplos": [
+    "Laura",
+    "la talla y los colores"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.6",
+   "ola": 1
+  },
+  {
+   "nombre": "faltan_datos_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Tu anillo está listo para entrar al taller, pero aún necesito: {{2}}. ¿Me los envías por aquí?",
+   "variables": [
+    "nombre",
+    "pendientes"
+   ],
+   "ejemplos": [
+    "Laura",
+    "la talla y los colores"
+   ],
+   "botones": [
+    "Ya te los envío",
+    "Necesito ayuda"
+   ],
+   "encabezado": null,
+   "grupo": "6.6",
+   "ola": 1
+  },
+  {
+   "nombre": "faltan_datos_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Para no retrasar la fabricación de tu anillo, necesito que me confirmes {{2}}. Es lo único que falta.",
+   "variables": [
+    "nombre",
+    "pendientes"
+   ],
+   "ejemplos": [
+    "Laura",
+    "la talla y los colores"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.6",
+   "ola": 1
+  },
+  {
+   "nombre": "confirmar_detalles_final",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🔍 Antes de fabricar tu anillo, confirma por favor estos datos: {{2}}. Una vez empiece el trabajo ya no es fácil cambiarlo. ¿Todo está correcto?",
+   "variables": [
+    "nombre",
+    "resumen"
+   ],
+   "ejemplos": [
+    "Laura",
+    "grabado Luna ♡ Max, colores morado y negro, talla 7"
+   ],
+   "botones": [
+    "Sí, todo correcto",
+    "Quiero cambiar algo"
+   ],
+   "encabezado": null,
+   "grupo": "6.7",
+   "ola": 1
+  },
+  {
+   "nombre": "confirmar_detalles_final_b",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Tu anillo está por entrar al taller. Revisa por favor este resumen: {{2}}. Si todo está bien, respóndeme y lo dejamos en marcha.",
+   "variables": [
+    "nombre",
+    "resumen"
+   ],
+   "ejemplos": [
+    "Laura",
+    "grabado Luna ♡ Max, colores morado y negro, talla 7"
+   ],
+   "botones": [
+    "Todo bien",
+    "Cambiar algo"
+   ],
+   "encabezado": null,
+   "grupo": "6.7",
+   "ola": 1
+  },
+  {
+   "nombre": "repaso_final_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🔍 Repasemos tu anillo antes de fabricarlo: {{2}}. Si algo no es correcto, avísame hoy.",
+   "variables": [
+    "nombre",
+    "resumen"
+   ],
+   "ejemplos": [
+    "Laura",
+    "grabado Luna ♡ Max, colores morado y negro, talla 7"
+   ],
+   "botones": [
+    "Sí, está bien",
+    "Quiero cambiar algo"
+   ],
+   "encabezado": null,
+   "grupo": "6.7",
+   "ola": 1
+  },
+  {
+   "nombre": "repaso_final_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Último chequeo de tu pedido {{2}}: {{3}}. Respóndeme si todo está bien para pasarlo al taller.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "resumen"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "grabado Luna ♡ Max, colores morado y negro, talla 7"
+   ],
+   "botones": [
+    "Todo bien",
+    "Quiero cambiar algo"
+   ],
+   "encabezado": null,
+   "grupo": "6.7",
+   "ola": 1
+  },
+  {
+   "nombre": "diseno_aprobar_dibujo",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 Así quedaría tu anillo con la huellita de {{2}}. ¿Lo aprobamos o quieres cambiar algo?",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Me encanta",
+    "Quiero un cambio"
+   ],
+   "encabezado": "IMAGE",
+   "grupo": "6.10",
+   "ola": 2
+  },
+  {
+   "nombre": "diseno_resumen_confirmar",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 📝 Te dejé el resumen de tu anillo. Si todo está bien, lo confirmo y pasamos al abono de {{2}} para empezar tu anillo 💍",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [
+    "Todo bien, confirma",
+    "Quiero cambiar algo"
+   ],
+   "encabezado": null,
+   "grupo": "6.10",
+   "ola": 2
+  },
+  {
+   "nombre": "aprobar_diseno_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 Te dejo cómo quedaría el anillo de {{2}}. ¿Lo aprobamos o quieres ajustar algo antes de fabricarlo?",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Me encanta",
+    "Quiero un cambio"
+   ],
+   "encabezado": "IMAGE",
+   "grupo": "6.10",
+   "ola": 2
+  },
+  {
+   "nombre": "taller_empezamos",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Buenas noticias, {{1}}! 🥳 Tu anillo {{2}} ya entró al taller. Te escribiré apenas esté listo para mostrártelo.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.1",
+   "ola": 1
+  },
+  {
+   "nombre": "taller_inicio_1",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Empezamos, {{1}}! 💜 Tu anillo {{2}} ya entró al taller. Se fabrica en 10 a 15 días y te escribo en cuanto esté listo.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.1",
+   "ola": 1
+  },
+  {
+   "nombre": "taller_inicio_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🥳 Ya empezó la fabricación de tu anillo {{2}}. Te iré contando cómo avanza.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.1",
+   "ola": 1
+  },
+  {
+   "nombre": "produccion_avance",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✨ Tu anillo {{2}} va avanzando muy bien en el taller. Te escribo apenas esté listo para mostrártelo 💍",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.2",
+   "ola": 2
+  },
+  {
+   "nombre": "produccion_foto_avance",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📸 Mira cómo va tu anillo {{2}} en el taller. ¡Ya casi! 💍",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": "IMAGE",
+   "grupo": "7.2",
+   "ola": 2
+  },
+  {
+   "nombre": "taller_avance_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✨ Tu anillo {{2}} va por buen camino en el taller. Apenas esté terminado te mando las fotos.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.2",
+   "ola": 2
+  },
+  {
+   "nombre": "produccion_fecha_estimada",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🗓️ Buenas noticias: tu anillo {{2}} estará listo aproximadamente el {{3}}. Te aviso con fotos apenas termine 💍",
+   "variables": [
+    "nombre",
+    "codigo",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "viernes 23 de octubre"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.3",
+   "ola": 2
+  },
+  {
+   "nombre": "fecha_estimada_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🗓️ Calculamos que tu anillo {{2}} esté listo hacia el {{3}}. Si algo cambia, te aviso de inmediato.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "viernes 23 de octubre"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.3",
+   "ola": 2
+  },
+  {
+   "nombre": "fecha_estimada_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Te comparto la fecha aproximada de tu anillo: {{2}}. Apenas termine, te escribo con las fotos.",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.3",
+   "ola": 2
+  },
+  {
+   "nombre": "produccion_demora",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🙏 Tu anillo {{2}} necesita unos días más de lo previsto. Queremos que quede perfecto; te aviso apenas esté listo.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.4",
+   "ola": 1
+  },
+  {
+   "nombre": "retraso_nueva_fecha",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🙏 Tu anillo {{2}} necesita unos días más en el taller. Calculamos tenerlo listo hacia el {{3}}. Gracias por tu paciencia.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "viernes 23 de octubre"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.4",
+   "ola": 1
+  },
+  {
+   "nombre": "retraso_aviso_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🙏 Tu anillo {{2}} se va a demorar un poco más de lo previsto. Queremos que quede perfecto; te escribo apenas esté listo.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.4",
+   "ola": 1
+  },
+  {
+   "nombre": "retraso_aviso_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Te aviso con tiempo que tu anillo necesita unos días extra en el taller. La nueva fecha aproximada es el {{2}}. Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.4",
+   "ola": 1
+  },
+  {
+   "nombre": "produccion_listo_foto",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Mira, {{1}}! 😍 Tu anillo {{2}} ya quedó terminado. Para despacharlo falta el saldo de {{3}}. ¿Te paso los datos?",
+   "variables": [
+    "nombre",
+    "codigo",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$140.000"
+   ],
+   "botones": [
+    "Pásame los datos",
+    "Ya pagué"
+   ],
+   "encabezado": "IMAGE",
+   "grupo": "7.6",
+   "ola": 1
+  },
+  {
+   "nombre": "anillo_listo_ver_fotos",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Mira, {{1}}! 😍 Tu anillo {{2}} ya está terminado. Para despacharlo falta el saldo de {{3}}. Toca el botón y te envío los datos de pago.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "saldo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$140.000"
+   ],
+   "botones": [
+    "Pásame los datos",
+    "Ya pagué"
+   ],
+   "encabezado": "IMAGE",
+   "grupo": "7.6",
+   "ola": 1
+  },
+  {
+   "nombre": "anillo_listo_1",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Tu anillo quedó hermoso, {{1}}! 😍 El pedido {{2}} ya está terminado. Para despacharlo falta el saldo de {{3}}; toca el botón y te paso los datos.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "saldo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$140.000"
+   ],
+   "botones": [
+    "Pásame los datos",
+    "Ya pagué",
+    "Más adelante"
+   ],
+   "encabezado": "IMAGE",
+   "grupo": "7.6",
+   "ola": 1
+  },
+  {
+   "nombre": "saldo_recordatorio",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Tu anillo {{2}} ya está listo y te espera. Falta el saldo de {{3}} para despacharlo. ¿Te paso los datos?",
+   "variables": [
+    "nombre",
+    "codigo",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$140.000"
+   ],
+   "botones": [
+    "Pásame los datos",
+    "Ya pagué",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "8.1",
+   "ola": 1
+  },
+  {
+   "nombre": "saldo_empacado",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🎁 Tu anillo {{2}} ya está terminado y empacado, esperando por ti. Solo falta el saldo de {{3}} para enviártelo 🚚",
+   "variables": [
+    "nombre",
+    "codigo",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$140.000"
+   ],
+   "botones": [
+    "Ya pagué",
+    "Reenvíame los datos",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "8.1",
+   "ola": 1
+  },
+  {
+   "nombre": "saldo_pendiente_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Tu anillo {{2}} ya está listo y empacado. Cuando hagas el saldo de {{3}}, lo despachamos enseguida.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "saldo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$140.000"
+   ],
+   "botones": [
+    "Pásame los datos",
+    "Ya pagué",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "8.1",
+   "ola": 1
+  },
+  {
+   "nombre": "saldo_pendiente_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🎁 Tu anillo te está esperando. Para enviarlo solo falta el saldo de {{2}}; toca el botón si necesitas los datos.",
+   "variables": [
+    "nombre",
+    "saldo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$140.000"
+   ],
+   "botones": [
+    "Pásame los datos",
+    "Ya pagué"
+   ],
+   "encabezado": null,
+   "grupo": "8.1",
+   "ola": 1
+  },
+  {
+   "nombre": "saldo_ultimo",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Tu anillo {{2}} lleva varios días listo. ¿Cuándo te queda bien hacer el saldo de {{3}}? Así lo programamos para despacharlo 🙏",
+   "variables": [
+    "nombre",
+    "codigo",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$140.000"
+   ],
+   "botones": [
+    "Hoy mismo",
+    "Esta semana",
+    "Necesito ayuda"
+   ],
+   "encabezado": null,
+   "grupo": "8.2",
+   "ola": 1
+  },
+  {
+   "nombre": "saldo_prometio_fecha",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🗓️ Quedamos en que harías el saldo de {{2}} el {{3}}. Cuando lo hagas, mándame el comprobante y despachamos tu anillo 💍",
+   "variables": [
+    "nombre",
+    "monto",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$140.000",
+    "viernes 23 de octubre"
+   ],
+   "botones": [
+    "Ya lo hice",
+    "Cambiar la fecha"
+   ],
+   "encabezado": null,
+   "grupo": "8.2",
+   "ola": 1
+  },
+  {
+   "nombre": "saldo_esperando_comprobante",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📩 Estoy pendiente del comprobante del saldo del pedido {{2}}. Apenas me llegue, lo despacho 🚚",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.2",
+   "ola": 1
+  },
+  {
+   "nombre": "saldo_dias_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Tu anillo {{2}} lleva unos días listo. Cuéntame cuándo puedes hacer el saldo de {{3}} para programar su envío.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "saldo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "$140.000"
+   ],
+   "botones": [
+    "Hoy mismo",
+    "Esta semana",
+    "Necesito ayuda"
+   ],
+   "encabezado": null,
+   "grupo": "8.2",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_datos_falta",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📦 Para enviar tu anillo {{2}} necesito tu nombre completo, ciudad, dirección y celular. ¿Me los escribes por aquí?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.3",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_datos_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📦 Para despachar tu anillo {{2}} necesito tus datos: ciudad, nombre completo, cédula, celular y dirección con barrio. ¿Me los escribes?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.3",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_datos_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🚚 Ya casi sale tu anillo. Envíame por aquí tus datos de envío y creo la guía de inmediato.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.3",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_datos_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Para que la transportadora te encuentre, necesito tu dirección completa con barrio, tu cédula y tu celular. ¿Me los compartes?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.3",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_confirmar_direccion",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📍 Antes de despachar, ¿confirmamos que el pedido {{2}} se envía a {{3}}? Respóndeme sí o dime qué debemos ajustar.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "destino"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "Bogotá, Cra 15 #100-20"
+   ],
+   "botones": [
+    "Sí, es correcto",
+    "Quiero cambiarlo"
+   ],
+   "encabezado": null,
+   "grupo": "8.4",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_confirma_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📍 Antes de despachar tu pedido, confirmo que va a {{2}}. ¿Es correcto?",
+   "variables": [
+    "nombre",
+    "destino"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Bogotá, Cra 15 #100-20"
+   ],
+   "botones": [
+    "Sí, es correcto",
+    "Quiero cambiarlo"
+   ],
+   "encabezado": null,
+   "grupo": "8.4",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_confirma_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🚚 Voy a crear la guía con esta dirección: {{2}}. Si algo está mal, dímelo antes de que salga.",
+   "variables": [
+    "nombre",
+    "destino"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Bogotá, Cra 15 #100-20"
+   ],
+   "botones": [
+    "Todo bien",
+    "Hay un error"
+   ],
+   "encabezado": null,
+   "grupo": "8.4",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_confirma_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🔍 Revisa por favor el destino de tu anillo {{2}}: {{3}}. Una guía mal hecha demora la entrega.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "destino"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "Bogotá, Cra 15 #100-20"
+   ],
+   "botones": [
+    "Es correcto",
+    "Quiero cambiarlo"
+   ],
+   "encabezado": null,
+   "grupo": "8.4",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_despachado_guia",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Buenas noticias, {{1}}! 🚚 Tu pedido {{2}} va en camino por Coordinadora, guía {{3}}. Recuerda que el envío se paga al recibir 💓",
+   "variables": [
+    "nombre",
+    "codigo",
+    "guia"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "1234567890"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.6",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_guia_1",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Tu anillo salió, {{1}}! 🎁 Va con {{2}}, guía {{3}}. Recuerda que el envío se paga al recibir y ten el celular cerca.",
+   "variables": [
+    "nombre",
+    "transportadora",
+    "guia"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Coordinadora",
+    "1234567890"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.6",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_guia_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🚚 Ya despachamos tu anillo y puedes seguir su recorrido con la guía {{2}}. Cuéntame cuando te llegue para saber que todo quedó bien.",
+   "variables": [
+    "nombre",
+    "guia"
+   ],
+   "ejemplos": [
+    "Laura",
+    "1234567890"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.6",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_novedad",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🚚 Coordinadora reportó una novedad con tu envío del pedido {{2}}. ¿Estarás disponible para recibirlo o necesitas cambiar algo?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Estaré disponible",
+    "Quiero cambiarlo"
+   ],
+   "encabezado": null,
+   "grupo": "8.8",
+   "ola": 2
+  },
+  {
+   "nombre": "envio_novedad_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🚚 Coordinadora reportó un inconveniente con la entrega de tu pedido {{2}}. ¿Me confirmas tu dirección y si estarás para recibirlo?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Estaré disponible",
+    "Cambiar dirección"
+   ],
+   "encabezado": null,
+   "grupo": "8.8",
+   "ola": 2
+  },
+  {
+   "nombre": "envio_novedad_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📦 El envío de tu anillo tuvo una novedad. Cuéntame cuándo y dónde puedes recibirlo y lo coordino con la transportadora.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.8",
+   "ola": 2
+  },
+  {
+   "nombre": "recoger_listo",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Tu anillo {{2}} está listo para recoger en Floridablanca. ¿Qué día te queda bien pasar?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.9",
+   "ola": 2
+  },
+  {
+   "nombre": "recoger_recordatorio",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📍 Tu anillo {{2}} te sigue esperando en Floridablanca. Avísame cuándo pasas por él y lo tendré listo 💍",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.9",
+   "ola": 2
+  },
+  {
+   "nombre": "recoger_listo_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🎁 Ya puedes pasar por tu anillo {{2}}: está terminado y te espera. ¿Qué día te queda cómodo para recogerlo?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.9",
+   "ola": 2
+  },
+  {
+   "nombre": "envio_llego_bien",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📦 ¿Ya te llegó tu anillo {{2}}? Cuéntame si todo está en orden 🥰",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Todo perfecto",
+    "Tengo un problema"
+   ],
+   "encabezado": null,
+   "grupo": "8.10",
+   "ola": 1
+  },
+  {
+   "nombre": "entrega_ok_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📦 Quería saber si tu anillo {{2}} ya llegó y si todo está en orden. Cuéntame cómo te fue.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Todo perfecto",
+    "Tengo un problema"
+   ],
+   "encabezado": null,
+   "grupo": "8.10",
+   "ola": 1
+  },
+  {
+   "nombre": "entrega_ok_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🥰 ¿Ya tienes tu anillo en las manos? Me encantaría saber si quedó como lo imaginabas.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Me encantó",
+    "Tengo un problema"
+   ],
+   "encabezado": null,
+   "grupo": "8.10",
+   "ola": 1
+  },
+  {
+   "nombre": "entrega_ok_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Te escribo para confirmar que tu pedido {{2}} llegó bien. Si algo no está como esperabas, dímelo y lo resolvemos.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Llegó bien",
+    "Hay un problema"
+   ],
+   "encabezado": null,
+   "grupo": "8.10",
+   "ola": 1
+  },
+  {
+   "nombre": "entrega_fallida_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🚚 Tu pedido {{2}} no pudo entregarse y volvió a nosotras. ¿Me confirmas dirección y quién puede recibirlo para enviarlo de nuevo?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.11",
+   "ola": 3
+  },
+  {
+   "nombre": "entrega_fallida_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📦 La transportadora no logró entregar tu anillo. Dime cuándo y dónde puedes recibirlo y lo coordinamos.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.11",
+   "ola": 3
+  },
+  {
+   "nombre": "entrega_fallida_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Tu anillo está de regreso en el taller por una entrega fallida. Cuéntame cómo prefieres que lo gestionemos.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.11",
+   "ola": 3
+  },
+  {
+   "nombre": "pedido_cancelado",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Confirmamos la cancelación del pedido {{2}}. Si habías hecho un abono, te escribo para coordinar la devolución.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.2",
+   "ola": 1
+  },
+  {
+   "nombre": "cancelacion_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Recibimos tu solicitud de cancelar el pedido {{2}}. Lía te escribe en breve para coordinar los detalles.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.2",
+   "ola": 1
+  },
+  {
+   "nombre": "cancelacion_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Entendido, vamos a gestionar la cancelación de tu pedido {{2}}. Te contactamos enseguida para confirmarlo contigo.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.2",
+   "ola": 1
+  },
+  {
+   "nombre": "cancelacion_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Gracias por avisarnos sobre tu pedido {{2}}. Revisamos tu solicitud de cancelación y Lía se comunica contigo hoy mismo.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.2",
+   "ola": 1
+  },
+  {
+   "nombre": "cambio_destino_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📍 Para cambiar el destino de tu pedido {{2}}, dime la nueva dirección con barrio y quién recibe.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.3",
+   "ola": 2
+  },
+  {
+   "nombre": "cambio_destino_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🚚 Antes de que salga tu anillo puedo actualizar la dirección. ¿A dónde lo enviamos?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.3",
+   "ola": 2
+  },
+  {
+   "nombre": "disculpa_demora",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🙏 Disculpa la demora en responderte. Vimos tu mensaje y queremos ayudarte con tu anillo. ¿Seguimos?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, sigamos",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "9.12",
+   "ola": 4
+  },
+  {
+   "nombre": "disculpa_demora_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🙏 Disculpa por no haberte respondido antes. Ya estamos contigo y con gusto seguimos con tu anillo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, sigamos",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "9.12",
+   "ola": 4
+  },
+  {
+   "nombre": "disculpa_demora_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Perdón por la demora. Vimos tu mensaje y queremos ayudarte. ¿Retomamos lo de tu anillo?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, retomemos",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "9.12",
+   "ola": 4
+  },
+  {
+   "nombre": "como_se_llama_peludito",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 ¿Cómo se llama tu peludito? Con su nombre te armo el diseño de tu anillo en un momento 💍",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "10.1",
+   "ola": 4
+  },
+  {
+   "nombre": "seguimiento_dudas",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 ¿Pudiste ver los modelos que te mostré? Si tienes alguna duda, aquí estoy para ayudarte 💍",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.1",
+   "ola": 4
+  },
+  {
+   "nombre": "primer_silencio_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 Te dejo por aquí cómo quedan nuestros anillos con el nombre grabado. Si quieres uno para tu peludito, cuéntame cómo se llama.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.1",
+   "ola": 4
+  },
+  {
+   "nombre": "se_freno_talla_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 📏 Si te trabó la talla, mándame una foto de un anillo tuyo sobre una regla y yo te digo la medida. También puedes separar y enviarla después.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.2",
+   "ola": 4
+  },
+  {
+   "nombre": "diseno_guardado",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 Guardé el diseño del anillo de {{2}}. Cuando quieras avanzar, responde este mensaje y lo retomamos 🐾",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.3",
+   "ola": 4
+  },
+  {
+   "nombre": "asi_quedaria_foto",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 Así luce un anillo con la huellita de {{2}} y su nombre grabado. Se hace a mano, en tu talla y tus colores ✨ ¿Te lo diseño?",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": "IMAGE",
+   "grupo": "10.3",
+   "ola": 4
+  },
+  {
+   "nombre": "diseno_guardado_b_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 El diseño del anillo de {{2}} sigue guardado tal como lo dejaste. Cuando quieras avanzar, dime y lo pasamos al taller.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.3",
+   "ola": 4
+  },
+  {
+   "nombre": "seguimiento_sin_presion",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💭 Tómate el tiempo que necesites. Cuando quieras retomar el anillo de {{2}}, escríbeme y seguimos donde quedamos ✨",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "10.4",
+   "ola": 2
+  },
+  {
+   "nombre": "sigues_interesado",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌸 ¿Sigues pensando en el anillo con la huellita de {{2}}? Si tienes dudas de precio, talla o colores, con gusto te ayudo.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.4",
+   "ola": 2
+  },
+  {
+   "nombre": "pidio_tiempo_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💭 Ya pasaron unos días desde que hablamos de tu anillo. Si quieres retomarlo, tu diseño sigue guardado y sin compromiso.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, sigamos",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.4",
+   "ola": 2
+  },
+  {
+   "nombre": "que_te_frena",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💭 ¿Hay algo que te frene para pedir tu anillo? Cuéntame con confianza y lo resolvemos 🤍",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "El precio",
+    "La talla",
+    "Otra cosa"
+   ],
+   "encabezado": null,
+   "grupo": "10.5",
+   "ola": 2
+  },
+  {
+   "nombre": "duda_que_te_ayudo",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🤍 ¿Te quedó alguna duda de tu anillo? Si me dices qué te preocupa (precio, talla, tiempos o confianza), te ayudo con gusto.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "El precio",
+    "La talla",
+    "Otra cosa"
+   ],
+   "encabezado": null,
+   "grupo": "10.5",
+   "ola": 2
+  },
+  {
+   "nombre": "que_te_detiene_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Si algo te impide decidir sobre tu anillo (precio, talla, tiempo), cuéntamelo. Casi siempre tiene solución.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "El precio",
+    "La talla",
+    "El tiempo"
+   ],
+   "encabezado": null,
+   "grupo": "10.5",
+   "ola": 2
+  },
+  {
+   "nombre": "duda_precio_abono",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💬 Si el valor te hizo dudar: separas tu anillo con solo {{2}} y pagas el resto cuando veas las fotos de tu anillo terminado 💍",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.6",
+   "ola": 1
+  },
+  {
+   "nombre": "duda_confianza",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🤍 Solo el abono inicia el trabajo, y el saldo lo pagas cuando ves tu anillo terminado. Puedes ver clientas reales en nuestro Instagram @lunajoyas 📸",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "10.6",
+   "ola": 1
+  },
+  {
+   "nombre": "duda_precio_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💬 Sé que el precio hace pensar. Con solo {{2}} separas tu anillo y el resto lo pagas cuando lo ves terminado en fotos.",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.6",
+   "ola": 1
+  },
+  {
+   "nombre": "duda_precio_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 Para que sea más llevadero: abonas {{2}} y pagas el saldo recién cuando tu anillo esté listo. ¿Te muestro cómo queda el de tu peludito?",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [
+    "Sí, muéstramelo",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.6",
+   "ola": 1
+  },
+  {
+   "nombre": "reabrir_conversacion",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola 🐾 Soy de Luna Joyas. ¿Quieres que sigamos con tu anillo de huellita? Respóndeme y retomamos 💍",
+   "variables": [],
+   "ejemplos": [],
+   "botones": [
+    "Sí, sigamos",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.7",
+   "ola": 4
+  },
+  {
+   "nombre": "gracias_por_escribir",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola 💜 Gracias por escribir a Luna Joyas. Cuando quieras, te ayudo a diseñar tu anillo con la huellita de tu peludito 🐾",
+   "variables": [],
+   "ejemplos": [],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.7",
+   "ola": 4
+  },
+  {
+   "nombre": "recordatorio_pendiente",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola 🌸 Te escribo para saber si todavía necesitas ayuda con tu anillo. Aquí sigo para lo que necesites ✨",
+   "variables": [],
+   "ejemplos": [],
+   "botones": [
+    "Sí, necesito ayuda",
+    "Estoy bien, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "10.7",
+   "ola": 4
+  },
+  {
+   "nombre": "fecha_especial",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🎁 Si quieres tu anillo para una fecha especial, cuéntame cuál es y calculamos si llegamos a tiempo (se fabrica en 10 a 15 días) ✨",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "10.9",
+   "ola": 4
+  },
+  {
+   "nombre": "navidad_ultimo_dia",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🎄 Para que tu anillo llegue antes de Navidad, el último día para pedir es el {{2}}. ¿Lo dejamos listo hoy? 💍",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "8 de diciembre"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.9",
+   "ola": 4
+  },
+  {
+   "nombre": "cierre_diseno_guardado",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Dejo guardado el anillo de {{2}} tal como lo diseñamos. Cuando quieras retomarlo, escríbeme y seguimos sin empezar de cero 💍",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Quiero retomarlo",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "10.10",
+   "ola": 4
+  },
+  {
+   "nombre": "cierre_amable_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 No quiero ser insistente, así que este es mi último mensaje por ahora. Tu anillo queda guardado y puedes retomarlo cuando quieras.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Retomar mi anillo",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "10.10",
+   "ola": 4
+  },
+  {
+   "nombre": "reenganche_15_dias",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 Hace unos días hablamos del anillo de {{2}}. Si todavía te interesa, con gusto te ayudo a diseñarlo 💍",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.11",
+   "ola": 3
+  },
+  {
+   "nombre": "reenganche_30_dias",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Pasó un tiempo desde que hablamos de tu anillo. Si ya es buen momento, aquí sigo para ayudarte a hacerlo realidad ✨",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.11",
+   "ola": 3
+  },
+  {
+   "nombre": "reenganche_novedad",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 Hace rato que no hablamos de tu anillo. Si todavía te hace ilusión, tu diseño se puede retomar cuando quieras y sin empezar de cero.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, retomemos",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "10.11",
+   "ola": 3
+  },
+  {
+   "nombre": "opcion_mas_sencilla",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Si el precio te hizo dudar, el anillo de 1 huellita es el más sencillo y se separa con solo {{2}}. ¿Te muestro cómo queda el de {{3}}? Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "monto",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000",
+    "Luna"
+   ],
+   "botones": [
+    "Sí, muéstramelo",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "10.12",
+   "ola": 2
+  },
+  {
+   "nombre": "opcion_accesible_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 Si el valor te hizo dudar, el anillo de una huellita es el más sencillo y se separa con {{2}}. ¿Te cuento cómo queda?",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [
+    "Sí, cuéntame",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "10.12",
+   "ola": 2
+  },
+  {
+   "nombre": "retomar_pedido_liberado",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Si quieres retomar el anillo de {{2}}, tu diseño sigue guardado. Respóndeme y lo dejamos listo para el taller.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Sí, retomarlo",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "10.13",
+   "ola": 3
+  },
+  {
+   "nombre": "retomar_liberado_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 El diseño del anillo de {{2}} sigue guardado aunque el pedido se liberó. Si quieres, lo retomamos hoy.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Sí, retomemos",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "10.13",
+   "ola": 3
+  },
+  {
+   "nombre": "retomar_liberado_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 Tu anillo puede volver a la lista del taller cuando tú quieras; no tendrías que diseñarlo otra vez.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Quiero retomarlo",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "10.13",
+   "ola": 3
+  },
+  {
+   "nombre": "anillo_corazon",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💖 Además de la huellita, tenemos el anillo con un corazón de circón del color que elijas, en plata 925. ¿Te muestro cómo se ve?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, muéstramelo",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "10.14",
+   "ola": 3
+  },
+  {
+   "nombre": "corazon_alternativa_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💖 Quizá la patita no es tu estilo; tenemos un anillo con un corazón de circón del color que prefieras, hecho en plata 925. ¿Quieres verlo?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, muéstramelo",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "10.14",
+   "ola": 3
+  },
+  {
+   "nombre": "corazon_alternativa_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 Tenemos otra opción muy bonita: un anillo con corazón y los nombres que quieras grabados. ¿Quieres verlo?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, quiero verlo",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "10.14",
+   "ola": 3
+  },
+  {
+   "nombre": "postventa_foto",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🥰 Nos encantaría ver tu anillo puesto. ¿Nos compartes una foto con {{2}}? Gracias por tu confianza 📸",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.1",
+   "ola": 1
+  },
+  {
+   "nombre": "foto_puesto_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🥰 ¿Nos compartes una foto de tu anillo puesto? Nos hace mucha ilusión verlo contigo y con {{2}}. Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.1",
+   "ola": 1
+  },
+  {
+   "nombre": "foto_puesto_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 📸 Nos encantaría ver cómo luce tu anillo en ti. Si quieres, mándanos una foto; solo la publicamos con tu permiso.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.1",
+   "ola": 1
+  },
+  {
+   "nombre": "foto_puesto_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 ¿Ya estrenaste tu anillo? Nos encantaría ver una foto con {{2}}, solo si tú quieres compartirla.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.1",
+   "ola": 1
+  },
+  {
+   "nombre": "postventa_comentario",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} ⭐ ¿Qué tal tu anillo? Si quedaste feliz, ¿nos regalas un comentario? Nos ayuda muchísimo 🤍",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.2",
+   "ola": 2
+  },
+  {
+   "nombre": "pedir_resena_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} ⭐ Si tu anillo te hizo feliz, ¿nos cuentas tu experiencia en un comentario? Nos ayuda muchísimo a que más personas confíen en nosotras.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.2",
+   "ola": 2
+  },
+  {
+   "nombre": "pedir_resena_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 ¿Nos regalas dos líneas sobre cómo te fue con tu anillo? Tu opinión vale mucho para nuestro taller.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.2",
+   "ola": 2
+  },
+  {
+   "nombre": "postventa_cuidado",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✨ Tip para tu anillo: límpialo con un paño suave y guárdalo en su estuche; así se mantiene brillante mucho tiempo 💍",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.4",
+   "ola": 3
+  },
+  {
+   "nombre": "cuidado_plata_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✨ Un consejo para tu anillo: quítatelo para ducharte y hacer ejercicio, y límpialo con un paño suave. Así dura muchos años.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.4",
+   "ola": 3
+  },
+  {
+   "nombre": "cuidado_plata_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Para conservar su brillo, guarda tu anillo en su estuche y evita perfumes y cloro directos sobre la plata.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.4",
+   "ola": 3
+  },
+  {
+   "nombre": "postventa_garantia",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🛡️ Recuerda que tu anillo tiene garantía de 6 meses. Si algo no está bien, escríbenos y lo revisamos 🤍",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.5",
+   "ola": 3
+  },
+  {
+   "nombre": "recordar_garantia_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🛡️ Te recuerdo que tu anillo tiene garantía de 6 meses por defectos de fabricación. Si notas algo raro, mándanos una foto.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.5",
+   "ola": 3
+  },
+  {
+   "nombre": "recordar_garantia_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Estamos para ti: si en estos meses tu anillo presenta algún problema de fabricación, escríbenos y lo revisamos.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.5",
+   "ola": 3
+  },
+  {
+   "nombre": "postventa_problema",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💬 ¿Todo bien con tu anillo? Si hay algo que no te gustó, cuéntanos para solucionarlo 🤍",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Todo bien",
+    "Tengo un problema"
+   ],
+   "encabezado": null,
+   "grupo": "11.6",
+   "ola": 2
+  },
+  {
+   "nombre": "todo_bien_posventa_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💬 ¿Cómo va tu anillo? Si hay algo que no te convenció, cuéntanos para mejorarlo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Todo perfecto",
+    "Tengo un problema"
+   ],
+   "encabezado": null,
+   "grupo": "11.6",
+   "ola": 2
+  },
+  {
+   "nombre": "todo_bien_posventa_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Pasaron unos días desde que recibiste tu anillo. ¿Todo en orden?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Todo bien",
+    "Tengo una duda"
+   ],
+   "encabezado": null,
+   "grupo": "11.6",
+   "ola": 2
+  },
+  {
+   "nombre": "recompra_otra_mascota",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 ¿Tienes otro peludito que quieras llevar contigo? Podemos hacerte un anillo con su huellita también 💍",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, cuéntame",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.7",
+   "ola": 3
+  },
+  {
+   "nombre": "otra_mascota_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 ¿Hay otro peludito en tu familia? También podemos hacerle su anillo con su huellita y nombre.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, cuéntame",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.7",
+   "ola": 3
+  },
+  {
+   "nombre": "otra_mascota_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 Si otro compañero peludo llegó a tu vida, nos encantaría crear su anillo, tal como hicimos el tuyo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, cuéntame",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.7",
+   "ola": 3
+  },
+  {
+   "nombre": "recompra_regalo",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🎁 Si buscas un regalo para alguien que ama a su mascota, un anillo con su huellita es un detalle muy especial. ¿Te cuento cómo pedirlo? ✨",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, cuéntame",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.8",
+   "ola": 3
+  },
+  {
+   "nombre": "fecha_regalo_con_tiempo",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🎁 Se acerca una fecha para regalar. Si quieres un anillo con la huellita de una mascota, hay que pedirlo antes del {{2}} para que llegue a tiempo. ¿Te cuento cómo?",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [
+    "Sí, cuéntame",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "11.8",
+   "ola": 3
+  },
+  {
+   "nombre": "regalo_con_tiempo_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💝 ¿Ya tienes el regalo ideal para una amante de los animales? Un anillo con la patita de su mascota y su nombre grabado nunca falla.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, cuéntame",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.8",
+   "ola": 3
+  },
+  {
+   "nombre": "regalo_con_tiempo_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 Para regalar a tiempo, hay que pedir con anticipación porque cada anillo se fabrica a mano en 10 a 15 días. ¿Quieres verlo?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, quiero verlo",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.8",
+   "ola": 3
+  },
+  {
+   "nombre": "regalo_con_tiempo_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Pensando en un regalo especial, un anillo con huellita y nombre grabado es perfecto. ¿Lo diseñamos?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, diseñémoslo",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "11.8",
+   "ola": 3
+  },
+  {
+   "nombre": "pedir_referidas_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 Si conoces a alguien que ame a su peludito, cuéntale de nosotras. Nos ayuda muchísimo y ella recibirá la misma atención que tú.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.10",
+   "ola": 3
+  },
+  {
+   "nombre": "pedir_referidas_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Gracias por confiar en Luna Joyas. Si una amiga busca un detalle para su mascota, ¡recomiéndanos con confianza!",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.10",
+   "ola": 3
+  },
+  {
+   "nombre": "pedir_referidas_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 Tu anillo puede inspirar a alguien más. Si quieres recomendarnos, dile que nos escriba y la atendemos con cariño.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.10",
+   "ola": 3
+  },
+  {
+   "nombre": "lia_te_atiende_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Soy Lía, de Luna Joyas. Vi tu mensaje y quiero ayudarte personalmente con tu anillo. ¿Cómo vamos?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Quiero asesoría",
+    "Tengo una duda"
+   ],
+   "encabezado": null,
+   "grupo": "12.2",
+   "ola": 4
+  },
+  {
+   "nombre": "falta_color_huellita_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🎨 Ya tengo casi todos los colores de tu anillo; solo falta el de una huellita. ¿Cuál te gusta para completar el diseño de {{2}}? Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Muéstramelo",
+    "Ya sé cuál"
+   ],
+   "encabezado": null,
+   "grupo": "6.11",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_color_huellita_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💎 Tu combinación va muy bien y falta definir el color de la última huellita. Dime cuál prefieres y seguimos.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.11",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_color_huellita_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌈 Para cerrar el diseño del anillo {{2}} necesito el color que falta. ¿Lo escogemos hoy?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.11",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_color_huellita_4",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🐾 Te falta elegir el color de una huellita del anillo de {{2}}. Si dudas, te recomiendo uno según su pelaje.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Recomiéndame",
+    "Ya sé cuál"
+   ],
+   "encabezado": null,
+   "grupo": "6.11",
+   "ola": 1
+  },
+  {
+   "nombre": "diseno_elegir_huellitas",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 ¿Cuántas huellitas te imaginas en tu anillo: 1, 2 o 3? Te muestro cómo se ve cada una ✨",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "1 huellita",
+    "2 huellitas",
+    "3 huellitas"
+   ],
+   "encabezado": null,
+   "grupo": "6.12",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_modelo_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🐾 Para armar tu diseño necesito saber cuántas huellitas quieres: 1, 2 o 3. ¿Cuál te gusta?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "1 huellita",
+    "2 huellitas",
+    "3 huellitas"
+   ],
+   "encabezado": null,
+   "grupo": "6.12",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_modelo_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 ¿Cuántas mascotas llevarás en tu anillo? Con eso defino el modelo y el valor.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.12",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_modelo_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Falta un solo dato para tu cotización final: ¿tu anillo será de 1, 2 o 3 huellitas?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "1 huellita",
+    "2 huellitas",
+    "3 huellitas"
+   ],
+   "encabezado": null,
+   "grupo": "6.12",
+   "ola": 1
+  },
+  {
+   "nombre": "falta_largo_cadena_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📏 Para fabricar tu cadena solo me falta el largo. ¿La prefieres corta, pegada al cuello, o un poco más larga?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.13",
+   "ola": 3
+  },
+  {
+   "nombre": "falta_largo_cadena_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Tu cadena con huellita ya casi está lista para el taller; dime qué largo te gusta y la empezamos.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Corta",
+    "Mediana",
+    "Larga"
+   ],
+   "encabezado": null,
+   "grupo": "6.13",
+   "ola": 3
+  },
+  {
+   "nombre": "falta_largo_cadena_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Antes de fabricar tu cadena {{2}} necesito el largo que quieres. Si dudas, te ayudo a escoger.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.13",
+   "ola": 3
+  },
+  {
+   "nombre": "falta_grabado_cadena_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✍️ ¿Qué grabamos en tu cadena? Puedes poner un nombre por cada lado de la huellita.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.14",
+   "ola": 3
+  },
+  {
+   "nombre": "falta_grabado_cadena_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🐾 Para fabricar tu cadena {{2}} me falta el texto de cada lado. Escríbelo tal como lo quieres.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.14",
+   "ola": 3
+  },
+  {
+   "nombre": "falta_grabado_cadena_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Solo falta el grabado de tu cadena para entrar al taller. ¿Cómo lo quieres?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Ya te lo escribo",
+    "Ayúdame"
+   ],
+   "encabezado": null,
+   "grupo": "6.14",
+   "ola": 3
+  },
+  {
+   "nombre": "ultimo_cambio_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Tu anillo {{2}} está por empezar a fabricarse. Si quieres cambiar algún detalle, este es el momento de decírmelo.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Todo bien",
+    "Quiero cambiar algo"
+   ],
+   "encabezado": null,
+   "grupo": "6.15",
+   "ola": 1
+  },
+  {
+   "nombre": "ultimo_cambio_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Antes de entrar al taller, ¿revisaste tu diseño? Una vez que empecemos ya no podremos modificarlo fácilmente.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, está bien",
+    "Quiero cambiar algo"
+   ],
+   "encabezado": null,
+   "grupo": "6.15",
+   "ola": 1
+  },
+  {
+   "nombre": "ultimo_cambio_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🔍 Última oportunidad amable para cambios en tu anillo {{2}}: color, nombre o talla. Si todo está bien, no hagas nada y lo empezamos.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.15",
+   "ola": 1
+  },
+  {
+   "nombre": "ultimo_cambio_4",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Quiero que tu anillo quede exactamente como lo imaginas; si hay algo que ajustar, dímelo hoy antes de fabricarlo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.15",
+   "ola": 1
+  },
+  {
+   "nombre": "foto_mascota_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 ¿Me envías una foto de {{2}}? Así te recomiendo los colores que mejor combinan con su pelaje.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.16",
+   "ola": 3
+  },
+  {
+   "nombre": "foto_mascota_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 📸 Si me muestras cómo es {{2}}, te sugiero la combinación de colores ideal para su anillo.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.16",
+   "ola": 3
+  },
+  {
+   "nombre": "foto_mascota_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💎 Para acertar con los colores de tu anillo, una foto de {{2}} me ayudaría mucho. ¿Me la compartes?",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "6.16",
+   "ola": 3
+  },
+  {
+   "nombre": "pieza_no_disponible_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🙏 El circón del color que elegiste para tu anillo {{2}} está agotado por ahora. ¿Te muestro dos tonos muy parecidos para escoger?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Muéstramelos",
+    "Prefiero esperar"
+   ],
+   "encabezado": null,
+   "grupo": "7.7",
+   "ola": 2
+  },
+  {
+   "nombre": "pieza_no_disponible_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💎 Quiero consultarte algo sobre tu anillo {{2}}: el color que pediste no está disponible hoy. ¿Escogemos uno similar?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.7",
+   "ola": 2
+  },
+  {
+   "nombre": "pieza_no_disponible_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Tengo que cambiarte una opción: el tono que elegiste no tiene existencias. Puedo ofrecerte otro parecido o esperar a que llegue.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Otro similar",
+    "Esperar"
+   ],
+   "encabezado": null,
+   "grupo": "7.7",
+   "ola": 2
+  },
+  {
+   "nombre": "taller_festivo_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Te aviso que el taller descansa por el festivo y retoma el {{2}}. Tu anillo {{3}} sigue en proceso.",
+   "variables": [
+    "nombre",
+    "fecha",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.8",
+   "ola": 2
+  },
+  {
+   "nombre": "taller_festivo_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Por los días festivos la fabricación se mueve un poco. Te confirmo la nueva fecha apenas retomemos el {{2}}. Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.8",
+   "ola": 2
+  },
+  {
+   "nombre": "taller_festivo_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📅 Un aviso importante: el taller vuelve a trabajar el {{2}}, así que la entrega de tu anillo puede correrse algunos días.",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.8",
+   "ola": 2
+  },
+  {
+   "nombre": "revision_final_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🔍 Tu anillo {{2}} está en la revisión final de calidad. En poco te mando las fotos del resultado.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.9",
+   "ola": 2
+  },
+  {
+   "nombre": "revision_final_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Estamos puliendo los últimos detalles de tu anillo antes de mostrártelo. Muy pronto te escribo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.9",
+   "ola": 2
+  },
+  {
+   "nombre": "revision_final_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✨ Ya casi, tu anillo está pasando por su último control. Apenas lo apruebe el taller, te comparto las fotos.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.9",
+   "ola": 2
+  },
+  {
+   "nombre": "rehacer_anillo_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🙏 Al revisar tu anillo {{2}} vimos un detalle que no cumple nuestro estándar, así que lo estamos rehaciendo. Calculamos tenerlo hacia el {{3}}. Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "viernes 23 de octubre"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.10",
+   "ola": 2
+  },
+  {
+   "nombre": "rehacer_anillo_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Prefiero contarte con honestidad: tu anillo necesitó un ajuste en el taller para que quede como lo pediste. Te aviso apenas esté listo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.10",
+   "ola": 2
+  },
+  {
+   "nombre": "rehacer_anillo_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Gracias por tu paciencia. Estamos repitiendo una parte de tu anillo {{2}} para que salga perfecto; la nueva fecha es el {{3}}. Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "codigo",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277",
+    "viernes 23 de octubre"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.10",
+   "ola": 2
+  },
+  {
+   "nombre": "listo_antes_1",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Buenas noticias, {{1}}! 🥳 Tu anillo {{2}} va más rápido de lo previsto y pronto te mando las fotos.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.11",
+   "ola": 3
+  },
+  {
+   "nombre": "listo_antes_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✨ Tu anillo está casi terminado, antes de la fecha estimada. Te escribo apenas esté listo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.11",
+   "ola": 3
+  },
+  {
+   "nombre": "listo_antes_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Te adelanto algo lindo: tu pedido {{2}} saldrá del taller antes de lo calculado.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "7.11",
+   "ola": 3
+  },
+  {
+   "nombre": "pagas_al_recibir_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🚚 Recuerda que el envío de tu anillo ({{2}}) lo pagas al recibir. Ten el valor a la mano cuando llegue el mensajero.",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.12",
+   "ola": 1
+  },
+  {
+   "nombre": "pagas_al_recibir_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Cuando llegue tu anillo, el mensajero te cobrará el envío: {{2}}. Así queda todo claro.",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.12",
+   "ola": 1
+  },
+  {
+   "nombre": "pagas_al_recibir_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📦 Un recordatorio amable: el valor del envío, {{2}}, se cancela contra entrega y no estaba incluido en el saldo.",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.12",
+   "ola": 1
+  },
+  {
+   "nombre": "pagas_al_recibir_4",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Para que no haya sorpresas: al recibir tu anillo pagas {{2}} por el envío.",
+   "variables": [
+    "nombre",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "$60.000"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.12",
+   "ola": 1
+  },
+  {
+   "nombre": "datos_recibidos_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📦 ¡Recibido! Ya tengo tus datos de envío y todo está listo para despachar tu pedido {{2}}. Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.13",
+   "ola": 2
+  },
+  {
+   "nombre": "datos_recibidos_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🚚 Gracias por tus datos. Apenas despache tu anillo te escribo con la guía.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.13",
+   "ola": 2
+  },
+  {
+   "nombre": "datos_recibidos_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✅ Tus datos de envío quedaron registrados. En cuanto salga tu pedido te paso el número de guía.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.13",
+   "ola": 2
+  },
+  {
+   "nombre": "envio_faltan_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📍 Para crear la guía de tu pedido solo me falta: {{2}}. ¿Me lo escribes por aquí?",
+   "variables": [
+    "nombre",
+    "pendientes"
+   ],
+   "ejemplos": [
+    "Laura",
+    "la talla y los colores"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.14",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_faltan_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🚚 Ya casi sale tu anillo; necesito {{2}} para completar el envío.",
+   "variables": [
+    "nombre",
+    "pendientes"
+   ],
+   "ejemplos": [
+    "Laura",
+    "la talla y los colores"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.14",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_faltan_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 La transportadora me pide un dato más para tu envío: {{2}}. En cuanto lo tenga, despacho.",
+   "variables": [
+    "nombre",
+    "pendientes"
+   ],
+   "ejemplos": [
+    "Laura",
+    "la talla y los colores"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.14",
+   "ola": 1
+  },
+  {
+   "nombre": "envio_faltan_4",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📦 Tu anillo está listo para salir; solo necesito {{2}} para que la transportadora no tenga problemas al entregarlo.",
+   "variables": [
+    "nombre",
+    "pendientes"
+   ],
+   "ejemplos": [
+    "Laura",
+    "la talla y los colores"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.14",
+   "ola": 1
+  },
+  {
+   "nombre": "llega_hoy_1",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Hoy llega tu anillo, {{1}}! 🎁 Mantén el celular cerca por si el mensajero te llama. Guía {{2}}. Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "guia"
+   ],
+   "ejemplos": [
+    "Laura",
+    "1234567890"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.15",
+   "ola": 2
+  },
+  {
+   "nombre": "llega_hoy_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🚚 Tu pedido {{2}} está en reparto hoy. Si hay alguna novedad con la entrega, escríbeme.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.15",
+   "ola": 2
+  },
+  {
+   "nombre": "llega_hoy_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📦 Según la guía {{2}}, tu anillo llega hoy. ¡Qué emoción!",
+   "variables": [
+    "nombre",
+    "guia"
+   ],
+   "ejemplos": [
+    "Laura",
+    "1234567890"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.15",
+   "ola": 2
+  },
+  {
+   "nombre": "entrega_tercero_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📦 La transportadora indica que tu pedido {{2}} ya fue entregado. ¿Lo recibiste bien?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Sí, lo recibí",
+    "No me ha llegado"
+   ],
+   "encabezado": null,
+   "grupo": "8.16",
+   "ola": 3
+  },
+  {
+   "nombre": "entrega_tercero_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Vi que tu anillo figura como entregado. Cuéntame si lo tienes en tus manos.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "8.16",
+   "ola": 3
+  },
+  {
+   "nombre": "entrega_tercero_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 El envío {{2}} aparece entregado. Si no lo has recibido, avísame de inmediato y lo reviso con la transportadora.",
+   "variables": [
+    "nombre",
+    "guia"
+   ],
+   "ejemplos": [
+    "Laura",
+    "1234567890"
+   ],
+   "botones": [
+    "Sí, lo tengo",
+    "No lo he recibido"
+   ],
+   "encabezado": null,
+   "grupo": "8.16",
+   "ola": 3
+  },
+  {
+   "nombre": "seguimiento_reclamo_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Te escribo para saber si ya quedó resuelto lo de tu anillo {{2}}. Si algo sigue pendiente, dime.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [
+    "Ya se resolvió",
+    "Sigue pendiente"
+   ],
+   "encabezado": null,
+   "grupo": "9.16",
+   "ola": 2
+  },
+  {
+   "nombre": "seguimiento_reclamo_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 ¿Cómo vamos con lo que hablamos de tu pedido {{2}}? Quiero asegurarme de que quedaste conforme.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.16",
+   "ola": 2
+  },
+  {
+   "nombre": "seguimiento_reclamo_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Hago seguimiento a tu caso. ¿La solución que acordamos funcionó?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, gracias",
+    "No todavía"
+   ],
+   "encabezado": null,
+   "grupo": "9.16",
+   "ola": 2
+  },
+  {
+   "nombre": "reclamo_faltan_fotos_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📷 Para ayudarte con tu pedido {{2}} necesito las fotos que te pedí. Cuando las tengas, me las envías por aquí.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.17",
+   "ola": 2
+  },
+  {
+   "nombre": "reclamo_faltan_fotos_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Seguimos pendientes de tu caso. ¿Pudiste tomar las fotos del anillo para que lo revisemos?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.17",
+   "ola": 2
+  },
+  {
+   "nombre": "reclamo_faltan_fotos_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Sin las fotos no puedo evaluar bien lo que pasó con tu anillo {{2}}. ¿Me las compartes cuando puedas?",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.17",
+   "ola": 2
+  },
+  {
+   "nombre": "reclamo_resuelto_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Quedó resuelto lo de tu anillo {{2}}. Gracias por tu paciencia y por avisarnos.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.18",
+   "ola": 2
+  },
+  {
+   "nombre": "reclamo_resuelto_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Cerramos tu caso con éxito. Si necesitas cualquier cosa más, aquí estoy.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.18",
+   "ola": 2
+  },
+  {
+   "nombre": "reclamo_resuelto_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Me alegra haber podido solucionarlo. Gracias por darnos la oportunidad de corregirlo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.18",
+   "ola": 2
+  },
+  {
+   "nombre": "cancelacion_confirmada_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Confirmamos la cancelación del pedido {{2}}. Lía te escribirá para coordinar lo relacionado con tu abono.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.19",
+   "ola": 3
+  },
+  {
+   "nombre": "cancelacion_confirmada_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Tu pedido {{2}} quedó cancelado. Si más adelante quieres retomar el diseño, estará guardado para ti.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.19",
+   "ola": 3
+  },
+  {
+   "nombre": "cancelacion_confirmada_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Gracias por avisarnos. Cancelamos el pedido {{2}} y te contactamos para cerrar lo pendiente.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.19",
+   "ola": 3
+  },
+  {
+   "nombre": "cambio_pedido_confirmado",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✅ Actualizamos tu pedido {{2}} con los cambios que pediste. Si ves algo por corregir, avísame 💍",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.20",
+   "ola": 2
+  },
+  {
+   "nombre": "cambio_hecho_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✅ Ya actualicé tu pedido {{2}} con el cambio que pediste. Si ves algo por corregir, avísame.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.20",
+   "ola": 2
+  },
+  {
+   "nombre": "cambio_hecho_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Cambio realizado. Revisa que todo esté como lo quieres antes de seguir con tu anillo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Todo bien",
+    "Falta algo"
+   ],
+   "encabezado": null,
+   "grupo": "9.20",
+   "ola": 2
+  },
+  {
+   "nombre": "respuesta_especial_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 Ya revisamos lo que nos pediste y tenemos respuesta. ¿Te cuento por aquí?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, cuéntame"
+   ],
+   "encabezado": null,
+   "grupo": "9.21",
+   "ola": 3
+  },
+  {
+   "nombre": "respuesta_especial_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Terminamos de evaluar tu idea especial. Cuando quieras te explico si se puede y cuánto costaría.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, cuéntame",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "9.21",
+   "ola": 3
+  },
+  {
+   "nombre": "respuesta_especial_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} ✨ Tengo noticias sobre el diseño que me pediste. ¿Hablamos?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.21",
+   "ola": 3
+  },
+  {
+   "nombre": "reclamo_recibido_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Recibimos tu mensaje sobre tu pedido {{2}}. Ya se lo pasé a Lía para que te atienda con prioridad.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.22",
+   "ola": 1
+  },
+  {
+   "nombre": "reclamo_recibido_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Gracias por contarnos. Tu caso quedó registrado y te escribimos pronto con una solución.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.22",
+   "ola": 1
+  },
+  {
+   "nombre": "reclamo_recibido_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Lamentamos lo ocurrido. Ya estamos revisando tu pedido y te contactamos en breve.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.22",
+   "ola": 1
+  },
+  {
+   "nombre": "reclamo_recibido_4",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🙏 Tu reclamo llegó a nosotras y lo atendemos hoy mismo. Gracias por tu paciencia.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.22",
+   "ola": 1
+  },
+  {
+   "nombre": "llego_la_fecha_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Hoy es el día que quedamos para retomar el anillo de {{2}}. Con el abono de {{3}} lo empezamos.",
+   "variables": [
+    "nombre",
+    "mascota",
+    "monto"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna",
+    "$60.000"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.15",
+   "ola": 1
+  },
+  {
+   "nombre": "llego_la_fecha_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 Te escribo como te prometí. Tu diseño sigue guardado y puedo reservarte cupo hoy mismo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.15",
+   "ola": 1
+  },
+  {
+   "nombre": "llego_la_fecha_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 Ya llegó la fecha que hablamos. ¿Avanzamos con el anillo de {{2}}? Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Sí, sigamos",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.15",
+   "ola": 1
+  },
+  {
+   "nombre": "llego_la_fecha_4",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 Quedamos en hablar hoy sobre tu anillo. Si ya puedes separarlo, te paso los datos de inmediato.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, pásalos",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.15",
+   "ola": 1
+  },
+  {
+   "nombre": "te_quedo_duda_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 ¿Te quedó alguna duda con lo que te conté de tu anillo? Aquí estoy para ayudarte.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Tengo una duda",
+    "Todo claro"
+   ],
+   "encabezado": null,
+   "grupo": "10.16",
+   "ola": 1
+  },
+  {
+   "nombre": "te_quedo_duda_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 Si algo no quedó claro, dímelo sin pena. A veces se resuelve con un solo mensaje.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "10.16",
+   "ola": 1
+  },
+  {
+   "nombre": "te_quedo_duda_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 Quería saber si pudiste pensar lo que hablamos del anillo de tu peludito. ¿Te ayudo en algo más?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, sigamos",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.16",
+   "ola": 1
+  },
+  {
+   "nombre": "te_quedo_duda_4",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 Cuando quieras seguimos con tu diseño; si tienes alguna pregunta, escríbeme con confianza.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "10.16",
+   "ola": 1
+  },
+  {
+   "nombre": "producto_disponible_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Te cuento que ya tenemos disponible {{2}}, lo que habías preguntado. ¿Quieres verlo?",
+   "variables": [
+    "nombre",
+    "pieza"
+   ],
+   "ejemplos": [
+    "Laura",
+    "manillas"
+   ],
+   "botones": [
+    "Sí, muéstramelo",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "10.18",
+   "ola": 3
+  },
+  {
+   "nombre": "producto_disponible_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 Buenas noticias: ya puedes pedir {{2}} en Luna Joyas. Escríbeme si quieres conocerlo.",
+   "variables": [
+    "nombre",
+    "pieza"
+   ],
+   "ejemplos": [
+    "Laura",
+    "manillas"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "10.18",
+   "ola": 3
+  },
+  {
+   "nombre": "producto_disponible_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} ✨ Sacamos {{2}}, tal como querías. Si te interesa, te cuento precios y cómo pedirlo.",
+   "variables": [
+    "nombre",
+    "pieza"
+   ],
+   "ejemplos": [
+    "Laura",
+    "manillas"
+   ],
+   "botones": [
+    "Cuéntame",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "10.18",
+   "ola": 3
+  },
+  {
+   "nombre": "cupo_taller_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Se liberó cupo en el taller esta semana. ¿Quieres reservar el anillo de {{2}}? Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Sí, reservar",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "10.19",
+   "ola": 3
+  },
+  {
+   "nombre": "cupo_taller_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 Tengo cupo disponible para empezar tu anillo ya. Si te interesa, lo agendo hoy.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, quiero",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.19",
+   "ola": 3
+  },
+  {
+   "nombre": "cupo_taller_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 Hay espacio en el taller para el anillo de {{2}}. Con el abono lo reservamos.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Quiero separarlo",
+    "Tengo una duda",
+    "Más adelante"
+   ],
+   "encabezado": null,
+   "grupo": "10.19",
+   "ola": 3
+  },
+  {
+   "nombre": "satisfaccion_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 ¿Cómo calificas tu experiencia con Luna Joyas, de 1 a 5? Tu opinión nos ayuda a mejorar.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "5 · Excelente",
+    "3 · Regular",
+    "1 · Mala"
+   ],
+   "encabezado": null,
+   "grupo": "11.11",
+   "ola": 2
+  },
+  {
+   "nombre": "satisfaccion_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Una pregunta rápida: del 1 al 5, ¿qué tan feliz quedaste con tu anillo?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "5",
+    "4",
+    "3 o menos"
+   ],
+   "encabezado": null,
+   "grupo": "11.11",
+   "ola": 2
+  },
+  {
+   "nombre": "satisfaccion_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} ⭐ Nos encantaría saber cómo te fue con tu pedido. ¿Nos cuentas del 1 al 5?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.11",
+   "ola": 2
+  },
+  {
+   "nombre": "como_nos_conociste_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Una curiosidad: ¿cómo conociste Luna Joyas? Nos ayuda mucho saberlo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Instagram",
+    "Un anuncio",
+    "Una amiga"
+   ],
+   "encabezado": null,
+   "grupo": "11.12",
+   "ola": 3
+  },
+  {
+   "nombre": "como_nos_conociste_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 Gracias por elegirnos. ¿Dónde nos viste por primera vez?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Instagram",
+    "Facebook",
+    "Una amiga"
+   ],
+   "encabezado": null,
+   "grupo": "11.12",
+   "ola": 3
+  },
+  {
+   "nombre": "como_nos_conociste_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 Para seguir mejorando, ¿me cuentas cómo llegaste a nosotras?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.12",
+   "ola": 3
+  },
+  {
+   "nombre": "como_reacciono_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🎁 ¿Cómo reaccionó cuando recibió su anillo? Me encantaría saber si le gustó.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.13",
+   "ola": 3
+  },
+  {
+   "nombre": "como_reacciono_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 Cuéntame cómo fue la sorpresa del regalo. Si quieres, comparte una foto de ese momento.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.13",
+   "ola": 3
+  },
+  {
+   "nombre": "como_reacciono_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 ¿Le gustó el anillo a quien se lo regalaste? Tu experiencia nos importa mucho.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Le encantó",
+    "Hubo un problema"
+   ],
+   "encabezado": null,
+   "grupo": "11.13",
+   "ola": 3
+  },
+  {
+   "nombre": "garantia_por_vencer_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🛡️ La garantía de tu anillo está por terminar. Si notas algo raro, mándanos una foto estos días y lo revisamos.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.14",
+   "ola": 3
+  },
+  {
+   "nombre": "garantia_por_vencer_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Quedan pocas semanas de garantía en tu anillo. ¿Todo bien con él?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Todo bien",
+    "Tengo un problema"
+   ],
+   "encabezado": null,
+   "grupo": "11.14",
+   "ola": 3
+  },
+  {
+   "nombre": "garantia_por_vencer_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Te aviso con tiempo que se acerca el fin de la garantía de 6 meses de tu anillo. Revísalo y cuéntame cómo va.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.14",
+   "ola": 3
+  },
+  {
+   "nombre": "novedad_corazon_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💖 Tenemos un anillo nuevo: un corazón de circón del color que elijas, en plata 925. ¿Te lo muestro?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, muéstramelo",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.15",
+   "ola": 3
+  },
+  {
+   "nombre": "novedad_corazon_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 Además de la huellita, ahora puedes llevar un corazón de color con nombres grabados. ¿Quieres verlo?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, quiero verlo",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.15",
+   "ola": 3
+  },
+  {
+   "nombre": "novedad_corazon_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Hicimos un anillo de corazón que queda precioso solo o con la huellita. ¿Te cuento cómo es?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, cuéntame",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.15",
+   "ola": 3
+  },
+  {
+   "nombre": "novedad_corazon_4",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} ✨ Novedad en el taller: anillo de corazón en plata 925. Mira cómo luce y dime qué te parece.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Quiero verlo",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "11.15",
+   "ola": 3
+  },
+  {
+   "nombre": "novedad_producto_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Hay una novedad en el taller: ya tenemos {{2}}. ¿Quieres conocerlo?",
+   "variables": [
+    "nombre",
+    "pieza"
+   ],
+   "ejemplos": [
+    "Laura",
+    "manillas"
+   ],
+   "botones": [
+    "Sí, muéstramelo",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.16",
+   "ola": 3
+  },
+  {
+   "nombre": "novedad_producto_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 Lanzamos {{2}} en Luna Joyas. Escríbeme si quieres ver fotos y precios.",
+   "variables": [
+    "nombre",
+    "pieza"
+   ],
+   "ejemplos": [
+    "Laura",
+    "manillas"
+   ],
+   "botones": [
+    "Quiero verlo",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "11.16",
+   "ola": 3
+  },
+  {
+   "nombre": "novedad_producto_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} ✨ Te contamos con cariño que ya puedes pedir {{2}}. ¿Te cuento los detalles?",
+   "variables": [
+    "nombre",
+    "pieza"
+   ],
+   "ejemplos": [
+    "Laura",
+    "manillas"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.16",
+   "ola": 3
+  },
+  {
+   "nombre": "cumpleanos_1",
+   "categoria": "MARKETING",
+   "cuerpo": "¡Feliz cumpleaños, {{1}}! 🎂 Que tengas un día hermoso, de parte de todo el equipo de Luna Joyas.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.17",
+   "ola": 3
+  },
+  {
+   "nombre": "cumpleanos_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 Hoy cumple años {{2}}. Si quieres celebrarlo, podemos crear un anillo en su honor.",
+   "variables": [
+    "nombre",
+    "mascota"
+   ],
+   "ejemplos": [
+    "Laura",
+    "Luna"
+   ],
+   "botones": [
+    "Sí, me encanta",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.17",
+   "ola": 3
+  },
+  {
+   "nombre": "cumpleanos_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🎁 Te deseamos un cumpleaños lleno de cariño. Si quieres un detalle para ti, estamos aquí.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.17",
+   "ola": 3
+  },
+  {
+   "nombre": "fecha_madre_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💐 Se acerca el Día de la Madre. Un anillo con la huellita de su peludito es un regalo muy especial; hay que pedirlo antes del {{2}}. Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [
+    "Quiero uno",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.18",
+   "ola": 3
+  },
+  {
+   "nombre": "fecha_madre_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 Para el Día de la Madre, regala un anillo con huellita y nombre grabado. Se fabrica en 10 a 15 días, pídelo con tiempo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Cuéntame",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.18",
+   "ola": 3
+  },
+  {
+   "nombre": "fecha_amistad_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 En Amor y Amistad regala algo que dure: un anillo con huellita y nombre grabado. Pídelo antes del {{2}} para que llegue a tiempo.",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [
+    "Quiero uno",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.18",
+   "ola": 3
+  },
+  {
+   "nombre": "fecha_amistad_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🎁 Para Amor y Amistad, un anillo personalizado es un detalle único. Cuéntame para quién y lo diseñamos.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Cuéntame",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.18",
+   "ola": 3
+  },
+  {
+   "nombre": "fecha_navidad_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🎁 Si piensas regalar (o regalarte) un anillo en Navidad, recuerda que se fabrica a mano y el último día para encargarlo es el {{2}}. Estoy pendiente para ayudarte.",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [
+    "Quiero uno",
+    "Ahora no"
+   ],
+   "encabezado": null,
+   "grupo": "11.18",
+   "ola": 3
+  },
+  {
+   "nombre": "fecha_navidad_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🎁 Navidad se acerca y los anillos se fabrican a mano en 10 a 15 días. Pídelo antes del {{2}} para recibirlo a tiempo.",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [
+    "Cuéntame",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.18",
+   "ola": 3
+  },
+  {
+   "nombre": "fecha_mascotas_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐶 En el Día del perro celebramos a los peluditos con un anillo con su huellita. ¿Quieres el de tu compañero?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, quiero",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.18",
+   "ola": 3
+  },
+  {
+   "nombre": "fecha_mascotas_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐱 Hoy se celebra a los gatos. Si quieres llevar la huellita del tuyo en un anillo, aquí estamos.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, quiero",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.18",
+   "ola": 3
+  },
+  {
+   "nombre": "permiso_novedades_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 ¿Quieres que te avisemos cuando tengamos novedades o fechas especiales para regalar? Responde «sí» y listo; nada de spam.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, avísame",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.19",
+   "ola": 2
+  },
+  {
+   "nombre": "permiso_novedades_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Si te gustaría recibir novedades de Luna Joyas (lanzamientos y fechas de regalo), dímelo y te incluyo. Puedes salir cuando quieras.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, me interesa",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.19",
+   "ola": 2
+  },
+  {
+   "nombre": "permiso_novedades_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🐾 Para escribirte solo cuando tengas interés, ¿te gustaría recibir novedades de vez en cuando?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, quiero",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.19",
+   "ola": 2
+  },
+  {
+   "nombre": "segunda_compra_1",
+   "categoria": "UTILITY",
+   "cuerpo": "¡Gracias por volver, {{1}}! 💜 Recibimos tu nuevo pedido {{2}} y lo hacemos con el mismo cariño que el primero.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.20",
+   "ola": 3
+  },
+  {
+   "nombre": "segunda_compra_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Qué alegría tenerte otra vez. Tu pedido {{2}} quedó registrado y te iré contando cada avance.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.20",
+   "ola": 3
+  },
+  {
+   "nombre": "segunda_compra_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💍 Gracias por confiar de nuevo en nosotras. Tu nuevo anillo ya está en proceso de registro.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.20",
+   "ola": 3
+  },
+  {
+   "nombre": "limpieza_anillo_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} ✨ Si quieres que revisemos o limpiemos tu anillo, escríbenos y te contamos cómo hacerlo.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Quiero saber",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.21",
+   "ola": 3
+  },
+  {
+   "nombre": "limpieza_anillo_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💍 Con el tiempo la plata agradece un repaso. ¿Te ayudamos a dejar tu anillo como nuevo?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "Sí, cuéntame",
+    "No, gracias"
+   ],
+   "encabezado": null,
+   "grupo": "11.21",
+   "ola": 3
+  },
+  {
+   "nombre": "limpieza_anillo_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 Si notas tu anillo opaco, podemos darte consejos o ayudarte con una limpieza. ¿Te interesa?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "11.21",
+   "ola": 3
+  },
+  {
+   "nombre": "no_atendemos_hoy_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Hoy no estamos atendiendo, pero ya vimos tu mensaje y te respondemos el {{2}}. Tu pedido sigue su curso.",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "12.9",
+   "ola": 2
+  },
+  {
+   "nombre": "no_atendemos_hoy_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Retomamos la atención el {{2}}. Gracias por tu paciencia, tu mensaje quedó registrado.",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "12.9",
+   "ola": 2
+  },
+  {
+   "nombre": "no_atendemos_hoy_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 📅 Te avisamos que no podremos responder hasta el {{2}}. En cuanto abramos, te escribimos.",
+   "variables": [
+    "nombre",
+    "fecha"
+   ],
+   "ejemplos": [
+    "Laura",
+    "viernes 23 de octubre"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "12.9",
+   "ola": 2
+  },
+  {
+   "nombre": "encuesta_atencion_1",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 🌷 ¿Cómo te atendimos hoy? Del 1 al 5, ¿qué tan fácil fue resolver lo que necesitabas?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [
+    "5 · Muy fácil",
+    "3 · Regular",
+    "1 · Difícil"
+   ],
+   "encabezado": null,
+   "grupo": "12.10",
+   "ola": 3
+  },
+  {
+   "nombre": "encuesta_atencion_2",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} 💜 Gracias por escribirnos. ¿Nos cuentas del 1 al 5 qué tal fue tu atención?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "12.10",
+   "ola": 3
+  },
+  {
+   "nombre": "encuesta_atencion_3",
+   "categoria": "MARKETING",
+   "cuerpo": "Hola {{1}} ⭐ Tu opinión sobre la atención que recibiste nos ayuda a mejorar. ¿Nos regalas una calificación?",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "12.10",
+   "ola": 3
+  },
+  {
+   "nombre": "recibimos_tu_mensaje_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Recibimos tu mensaje y en un momento te respondemos. Gracias por escribirnos.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "12.11",
+   "ola": 2
+  },
+  {
+   "nombre": "recibimos_tu_mensaje_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Ya vimos lo que nos escribiste. Enseguida te ayudamos.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "12.11",
+   "ola": 2
+  },
+  {
+   "nombre": "recibimos_tu_mensaje_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} ✅ Tu mensaje llegó bien. Estamos revisando y te contestamos muy pronto.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "12.11",
+   "ola": 2
+  },
+  {
+   "nombre": "recibimos_tu_mensaje_4",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🙌 Gracias por tu mensaje. Una persona del equipo lo atiende y te responde en breve.",
+   "variables": [
+    "nombre"
+   ],
+   "ejemplos": [
+    "Laura"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "12.11",
+   "ola": 2
+  },
+  {
+   "nombre": "reembolso_1",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🤍 Estamos gestionando el reembolso de tu pedido {{2}}. Lía te escribirá para confirmarte los detalles del proceso.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.23",
+   "ola": 3
+  },
+  {
+   "nombre": "reembolso_2",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 🌷 Tu solicitud del pedido {{2}} quedó registrada como reembolso y la estamos atendiendo. Te contactamos pronto.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.23",
+   "ola": 3
+  },
+  {
+   "nombre": "reembolso_3",
+   "categoria": "UTILITY",
+   "cuerpo": "Hola {{1}} 💜 Gracias por tu paciencia. Seguimos con la gestión de la devolución de tu pedido {{2}}; te avisamos cualquier novedad.",
+   "variables": [
+    "nombre",
+    "codigo"
+   ],
+   "ejemplos": [
+    "Laura",
+    "PED-2026-3277"
+   ],
+   "botones": [],
+   "encabezado": null,
+   "grupo": "9.23",
+   "ola": 3
+  }
+ ],
+ "grupos": [
+  {
+   "grupo": "4.3",
+   "situacion": "Reenviar los datos de pago",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "abono_reenviar_datos",
+     "existente": false
+    },
+    {
+     "nombre": "abono_datos_a_la_mano",
+     "existente": false
+    },
+    {
+     "nombre": "datos_pago_1",
+     "existente": false
+    },
+    {
+     "nombre": "datos_pago_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "4.5",
+   "situacion": "Pedido sin abono · día 3 (plantilla)",
+   "ventana": "fuera",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "cupo_en_el_taller",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "abono_reserva_pendiente",
+     "existente": false
+    },
+    {
+     "nombre": "abono_dia3",
+     "existente": false
+    },
+    {
+     "nombre": "abono_cupo_reservado",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "4.6",
+   "situacion": "Pedido sin abono · día 7 (último aviso)",
+   "ventana": "fuera",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "ultimo_recordatorio",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "abono_dia7_ultimo",
+     "existente": false
+    },
+    {
+     "nombre": "abono_ultimo_sin_presion",
+     "existente": false
+    },
+    {
+     "nombre": "abono_ultimo_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "4.7",
+   "situacion": "Dijo «hoy consigno» o dio una fecha",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "abono_prometio_hoy",
+     "existente": false
+    },
+    {
+     "nombre": "abono_prometio_fecha",
+     "existente": false
+    },
+    {
+     "nombre": "abono_promesa_1",
+     "existente": false
+    },
+    {
+     "nombre": "abono_promesa_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "4.8",
+   "situacion": "Separar sin talla",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "separar_sin_talla",
+     "existente": false
+    },
+    {
+     "nombre": "talla_sin_afan",
+     "existente": false
+    },
+    {
+     "nombre": "separa_sin_talla_1",
+     "existente": false
+    },
+    {
+     "nombre": "separa_sin_talla_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "4.9",
+   "situacion": "Pedido liberado por falta de abono",
+   "ventana": "fuera",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "abono_pedido_liberado",
+     "existente": false
+    },
+    {
+     "nombre": "cierre_inactividad",
+     "existente": false
+    },
+    {
+     "nombre": "pedido_liberado_retomar",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "4.10",
+   "situacion": "No ha pagado y se sospecha un problema",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "abono_dificultad_pago",
+     "existente": false
+    },
+    {
+     "nombre": "abono_ayuda_para_pagar",
+     "existente": false
+    },
+    {
+     "nombre": "abono_ayuda_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "4.11",
+   "situacion": "Gracias por la compra (pedido creado)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "pedido_gracias",
+     "existente": false
+    },
+    {
+     "nombre": "pedido_registrado_bienvenida",
+     "existente": false
+    },
+    {
+     "nombre": "pedido_gracias_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "5.1",
+   "situacion": "Recibí el comprobante (acuse)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "comprobante_recibido",
+     "existente": false
+    },
+    {
+     "nombre": "comprobante_en_revision",
+     "existente": false
+    },
+    {
+     "nombre": "comprobante_ok_1",
+     "existente": false
+    },
+    {
+     "nombre": "comprobante_ok_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "5.2",
+   "situacion": "El comprobante no se lee",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "comprobante_ilegible",
+     "existente": false
+    },
+    {
+     "nombre": "comprobante_enviar_de_nuevo",
+     "existente": false
+    },
+    {
+     "nombre": "comprobante_otra_vez_1",
+     "existente": false
+    },
+    {
+     "nombre": "comprobante_otra_vez_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "5.3",
+   "situacion": "Transfirió menos del abono",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "comprobante_valor_menor",
+     "existente": false
+    },
+    {
+     "nombre": "pago_faltante_diferencia",
+     "existente": false
+    },
+    {
+     "nombre": "pago_menor_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "5.4",
+   "situacion": "Dice que pagó y no vemos el pago",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "comprobante_no_aparece",
+     "existente": false
+    },
+    {
+     "nombre": "comprobante_verificando",
+     "existente": false
+    },
+    {
+     "nombre": "pago_no_visto_1",
+     "existente": false
+    },
+    {
+     "nombre": "pago_no_visto_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "5.5",
+   "situacion": "«Ya pagué» pero no llegó la foto",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "comprobante_ya_pague",
+     "existente": false
+    },
+    {
+     "nombre": "comprobante_esperando",
+     "existente": false
+    },
+    {
+     "nombre": "pago_foto_1",
+     "existente": false
+    },
+    {
+     "nombre": "pago_foto_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "5.6",
+   "situacion": "Abono confirmado y qué sigue",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "abono_confirmado",
+     "existente": false
+    },
+    {
+     "nombre": "pedido_en_produccion",
+     "existente": true,
+     "aprobada": false
+    },
+    {
+     "nombre": "abono_ok_1",
+     "existente": false
+    },
+    {
+     "nombre": "abono_ok_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "5.7",
+   "situacion": "Saldo confirmado",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "saldo_confirmado",
+     "existente": false
+    },
+    {
+     "nombre": "saldo_confirmado_despachamos",
+     "existente": false
+    },
+    {
+     "nombre": "saldo_ok_1",
+     "existente": false
+    },
+    {
+     "nombre": "saldo_ok_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.1",
+   "situacion": "Falta la talla (pedido ya pagado)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "talla_falta",
+     "existente": false
+    },
+    {
+     "nombre": "talla_ultimo",
+     "existente": false
+    },
+    {
+     "nombre": "falta_talla_1",
+     "existente": false
+    },
+    {
+     "nombre": "falta_talla_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.2",
+   "situacion": "Confirmar la talla antes de fabricar",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "talla_confirmar",
+     "existente": false
+    },
+    {
+     "nombre": "talla_confirma_1",
+     "existente": false
+    },
+    {
+     "nombre": "talla_confirma_2",
+     "existente": false
+    },
+    {
+     "nombre": "talla_confirma_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.3",
+   "situacion": "La medida no coincide con la tabla",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "talla_revisar_medida",
+     "existente": false
+    },
+    {
+     "nombre": "talla_revisar_1",
+     "existente": false
+    },
+    {
+     "nombre": "talla_revisar_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.4",
+   "situacion": "Faltan los colores",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "diseno_colores_pendiente",
+     "existente": false
+    },
+    {
+     "nombre": "falta_colores_1",
+     "existente": false
+    },
+    {
+     "nombre": "falta_colores_2",
+     "existente": false
+    },
+    {
+     "nombre": "falta_colores_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.5",
+   "situacion": "Falta el nombre a grabar",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "diseno_nombres_pendiente",
+     "existente": false
+    },
+    {
+     "nombre": "falta_grabado_1",
+     "existente": false
+    },
+    {
+     "nombre": "falta_grabado_2",
+     "existente": false
+    },
+    {
+     "nombre": "falta_grabado_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.6",
+   "situacion": "Varios datos pendientes (lista de lo que falta)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "pendientes_para_fabricar",
+     "existente": false
+    },
+    {
+     "nombre": "pendientes_para_fabricar_b",
+     "existente": false
+    },
+    {
+     "nombre": "faltan_datos_1",
+     "existente": false
+    },
+    {
+     "nombre": "faltan_datos_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.7",
+   "situacion": "Confirmación final anti-error (antes de fabricar)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "confirmar_detalles_final",
+     "existente": false
+    },
+    {
+     "nombre": "confirmar_detalles_final_b",
+     "existente": false
+    },
+    {
+     "nombre": "repaso_final_1",
+     "existente": false
+    },
+    {
+     "nombre": "repaso_final_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.10",
+   "situacion": "Aprobar el dibujo de su anillo",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "diseno_aprobar_dibujo",
+     "existente": false
+    },
+    {
+     "nombre": "diseno_resumen_confirmar",
+     "existente": false
+    },
+    {
+     "nombre": "aprobar_diseno_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "7.1",
+   "situacion": "Tu anillo entró al taller",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "pedido_en_produccion",
+     "existente": true,
+     "aprobada": false
+    },
+    {
+     "nombre": "taller_empezamos",
+     "existente": false
+    },
+    {
+     "nombre": "taller_inicio_1",
+     "existente": false
+    },
+    {
+     "nombre": "taller_inicio_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "7.2",
+   "situacion": "Avance de la fabricación (mitad del proceso)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "produccion_avance",
+     "existente": false
+    },
+    {
+     "nombre": "produccion_foto_avance",
+     "existente": false
+    },
+    {
+     "nombre": "taller_avance_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "7.3",
+   "situacion": "Fecha estimada de entrega",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "produccion_fecha_estimada",
+     "existente": false
+    },
+    {
+     "nombre": "fecha_estimada_1",
+     "existente": false
+    },
+    {
+     "nombre": "fecha_estimada_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "7.4",
+   "situacion": "Hay un retraso",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "produccion_demora",
+     "existente": false
+    },
+    {
+     "nombre": "retraso_nueva_fecha",
+     "existente": false
+    },
+    {
+     "nombre": "retraso_aviso_1",
+     "existente": false
+    },
+    {
+     "nombre": "retraso_aviso_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "7.6",
+   "situacion": "Anillo terminado y cobro del saldo",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "pedido_listo_cobro_saldo",
+     "existente": true,
+     "aprobada": false
+    },
+    {
+     "nombre": "produccion_listo_foto",
+     "existente": false
+    },
+    {
+     "nombre": "anillo_listo_ver_fotos",
+     "existente": false
+    },
+    {
+     "nombre": "anillo_listo_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.1",
+   "situacion": "Recordatorio del saldo",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "saldo_recordatorio",
+     "existente": false
+    },
+    {
+     "nombre": "saldo_empacado",
+     "existente": false
+    },
+    {
+     "nombre": "saldo_pendiente_1",
+     "existente": false
+    },
+    {
+     "nombre": "saldo_pendiente_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.2",
+   "situacion": "Saldo: varios días sin pago",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "saldo_ultimo",
+     "existente": false
+    },
+    {
+     "nombre": "saldo_prometio_fecha",
+     "existente": false
+    },
+    {
+     "nombre": "saldo_esperando_comprobante",
+     "existente": false
+    },
+    {
+     "nombre": "saldo_dias_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.3",
+   "situacion": "Pedir los datos de envío",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "envio_datos_falta",
+     "existente": false
+    },
+    {
+     "nombre": "envio_datos_1",
+     "existente": false
+    },
+    {
+     "nombre": "envio_datos_2",
+     "existente": false
+    },
+    {
+     "nombre": "envio_datos_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.4",
+   "situacion": "Confirmar el destino antes de despachar",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "envio_confirmar_direccion",
+     "existente": false
+    },
+    {
+     "nombre": "envio_confirma_1",
+     "existente": false
+    },
+    {
+     "nombre": "envio_confirma_2",
+     "existente": false
+    },
+    {
+     "nombre": "envio_confirma_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.6",
+   "situacion": "Pedido despachado con guía",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "pedido_despachado",
+     "existente": true,
+     "aprobada": false
+    },
+    {
+     "nombre": "envio_despachado_guia",
+     "existente": false
+    },
+    {
+     "nombre": "envio_guia_1",
+     "existente": false
+    },
+    {
+     "nombre": "envio_guia_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.8",
+   "situacion": "Novedad de la transportadora",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "envio_novedad",
+     "existente": false
+    },
+    {
+     "nombre": "envio_novedad_1",
+     "existente": false
+    },
+    {
+     "nombre": "envio_novedad_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.9",
+   "situacion": "Listo para recoger en Floridablanca",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "recoger_listo",
+     "existente": false
+    },
+    {
+     "nombre": "recoger_recordatorio",
+     "existente": false
+    },
+    {
+     "nombre": "recoger_listo_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.10",
+   "situacion": "¿Ya te llegó? Verificación de entrega",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "envio_llego_bien",
+     "existente": false
+    },
+    {
+     "nombre": "entrega_ok_1",
+     "existente": false
+    },
+    {
+     "nombre": "entrega_ok_2",
+     "existente": false
+    },
+    {
+     "nombre": "entrega_ok_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.11",
+   "situacion": "Entrega fallida o devuelta a origen",
+   "ventana": "ambas",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "entrega_fallida_1",
+     "existente": false
+    },
+    {
+     "nombre": "entrega_fallida_2",
+     "existente": false
+    },
+    {
+     "nombre": "entrega_fallida_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "9.2",
+   "situacion": "Quiere cancelar el pedido",
+   "ventana": "ambas",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "pedido_cancelado",
+     "existente": false
+    },
+    {
+     "nombre": "cancelacion_1",
+     "existente": false
+    },
+    {
+     "nombre": "cancelacion_2",
+     "existente": false
+    },
+    {
+     "nombre": "cancelacion_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "9.3",
+   "situacion": "Cambia la dirección o el destino",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "envio_confirmar_direccion",
+     "existente": false
+    },
+    {
+     "nombre": "cambio_destino_1",
+     "existente": false
+    },
+    {
+     "nombre": "cambio_destino_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "9.12",
+   "situacion": "Disculpa por demora en responder",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "retomar_conversacion_2",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "disculpa_demora",
+     "existente": false
+    },
+    {
+     "nombre": "disculpa_demora_1",
+     "existente": false
+    },
+    {
+     "nombre": "disculpa_demora_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.1",
+   "situacion": "S1 · vio la presentación y no volvió (día 1 en ventana, día 4 con plantilla)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "anillo_con_abono",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "como_se_llama_peludito",
+     "existente": false
+    },
+    {
+     "nombre": "seguimiento_dudas",
+     "existente": false
+    },
+    {
+     "nombre": "primer_silencio_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.2",
+   "situacion": "S2 · se frenó en la talla o la cantidad (día 1, 3 y 7)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "asi_quedaria",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "ultimo_recordatorio",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "separar_sin_talla",
+     "existente": false
+    },
+    {
+     "nombre": "se_freno_talla_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.3",
+   "situacion": "S3 · caliente: ya escogió colores o vio su diseño, sin pedido (día 1, 3 y 6)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "cupo_en_el_taller",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "diseno_guardado",
+     "existente": false
+    },
+    {
+     "nombre": "asi_quedaria_foto",
+     "existente": false
+    },
+    {
+     "nombre": "diseno_guardado_b_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.4",
+   "situacion": "Pidió tiempo («lo pienso»): retomar después",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "seguimiento_sin_presion",
+     "existente": false
+    },
+    {
+     "nombre": "sigues_interesado",
+     "existente": false
+    },
+    {
+     "nombre": "pidio_tiempo_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.5",
+   "situacion": "Silencio sin motivo claro: «¿qué te frena?»",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "que_te_frena",
+     "existente": false
+    },
+    {
+     "nombre": "duda_que_te_ayudo",
+     "existente": false
+    },
+    {
+     "nombre": "que_te_detiene_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.6",
+   "situacion": "Se fue después de ver el precio",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "duda_precio_abono",
+     "existente": false
+    },
+    {
+     "nombre": "duda_confianza",
+     "existente": false
+    },
+    {
+     "nombre": "duda_precio_1",
+     "existente": false
+    },
+    {
+     "nombre": "duda_precio_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.7",
+   "situacion": "Reabrir una conversación cerrada (fuera de ventana)",
+   "ventana": "fuera",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "retomar_conversacion",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "retomar_conversacion_2",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "reabrir_conversacion",
+     "existente": false
+    },
+    {
+     "nombre": "gracias_por_escribir",
+     "existente": false
+    },
+    {
+     "nombre": "recordatorio_pendiente",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.9",
+   "situacion": "Tiene una fecha especial (Navidad, cumpleaños, aniversario)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "ultimo_navidad",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "fecha_especial",
+     "existente": false
+    },
+    {
+     "nombre": "navidad_ultimo_dia",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.10",
+   "situacion": "Último mensaje de cortesía (cierre sin presión)",
+   "ventana": "fuera",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "ultimo_recordatorio",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "cierre_inactividad",
+     "existente": false
+    },
+    {
+     "nombre": "cierre_diseno_guardado",
+     "existente": false
+    },
+    {
+     "nombre": "cierre_amable_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.11",
+   "situacion": "Reenganche a los 15 y 30 días",
+   "ventana": "fuera",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "reenganche_15_dias",
+     "existente": false
+    },
+    {
+     "nombre": "reenganche_30_dias",
+     "existente": false
+    },
+    {
+     "nombre": "reenganche_novedad",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.12",
+   "situacion": "Interesada que se fue por precio (recuperación sin descuento)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "opcion_mas_sencilla",
+     "existente": false
+    },
+    {
+     "nombre": "duda_precio_abono",
+     "existente": false
+    },
+    {
+     "nombre": "opcion_accesible_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.13",
+   "situacion": "Reactivar un pedido liberado",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "retomar_pedido_liberado",
+     "existente": false
+    },
+    {
+     "nombre": "retomar_liberado_1",
+     "existente": false
+    },
+    {
+     "nombre": "retomar_liberado_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.14",
+   "situacion": "Ofrecer el anillo de corazón a quien no compró huellita",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "anillo_corazon",
+     "existente": false
+    },
+    {
+     "nombre": "corazon_alternativa_1",
+     "existente": false
+    },
+    {
+     "nombre": "corazon_alternativa_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.1",
+   "situacion": "Pedir una foto del anillo puesto",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "postventa_foto",
+     "existente": false
+    },
+    {
+     "nombre": "foto_puesto_1",
+     "existente": false
+    },
+    {
+     "nombre": "foto_puesto_2",
+     "existente": false
+    },
+    {
+     "nombre": "foto_puesto_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.2",
+   "situacion": "Pedir un comentario o reseña",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "postventa_comentario",
+     "existente": false
+    },
+    {
+     "nombre": "pedir_resena_1",
+     "existente": false
+    },
+    {
+     "nombre": "pedir_resena_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.4",
+   "situacion": "Consejos de cuidado",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "postventa_cuidado",
+     "existente": false
+    },
+    {
+     "nombre": "cuidado_plata_1",
+     "existente": false
+    },
+    {
+     "nombre": "cuidado_plata_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.5",
+   "situacion": "Recordar la garantía",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "postventa_garantia",
+     "existente": false
+    },
+    {
+     "nombre": "recordar_garantia_1",
+     "existente": false
+    },
+    {
+     "nombre": "recordar_garantia_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.6",
+   "situacion": "Revisar que todo esté bien (posventa)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "postventa_problema",
+     "existente": false
+    },
+    {
+     "nombre": "todo_bien_posventa_1",
+     "existente": false
+    },
+    {
+     "nombre": "todo_bien_posventa_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.7",
+   "situacion": "Recompra: otra mascota",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "recompra_otra_mascota",
+     "existente": false
+    },
+    {
+     "nombre": "otra_mascota_1",
+     "existente": false
+    },
+    {
+     "nombre": "otra_mascota_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.8",
+   "situacion": "Regalos y fechas (Madres, San Valentín, Navidad)",
+   "ventana": "fuera",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "recompra_regalo",
+     "existente": false
+    },
+    {
+     "nombre": "fecha_regalo_con_tiempo",
+     "existente": false
+    },
+    {
+     "nombre": "regalo_con_tiempo_1",
+     "existente": false
+    },
+    {
+     "nombre": "regalo_con_tiempo_2",
+     "existente": false
+    },
+    {
+     "nombre": "regalo_con_tiempo_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.10",
+   "situacion": "Pedir referidas (que recomiende)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "pedir_referidas_1",
+     "existente": false
+    },
+    {
+     "nombre": "pedir_referidas_2",
+     "existente": false
+    },
+    {
+     "nombre": "pedir_referidas_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "12.2",
+   "situacion": "Lía toma la conversación (saludo humano)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "asesora_te_atiende",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "asesora_te_atiende_2",
+     "existente": true,
+     "aprobada": true
+    },
+    {
+     "nombre": "asesora_te_atiende_3",
+     "existente": true,
+     "aprobada": false
+    },
+    {
+     "nombre": "lia_te_atiende_1",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.11",
+   "situacion": "Falta el color de una huellita (2 o 3 huellitas)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "falta_color_huellita_1",
+     "existente": false
+    },
+    {
+     "nombre": "falta_color_huellita_2",
+     "existente": false
+    },
+    {
+     "nombre": "falta_color_huellita_3",
+     "existente": false
+    },
+    {
+     "nombre": "falta_color_huellita_4",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.12",
+   "situacion": "Falta confirmar el modelo (cuántas huellitas)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "diseno_elegir_huellitas",
+     "existente": false
+    },
+    {
+     "nombre": "falta_modelo_1",
+     "existente": false
+    },
+    {
+     "nombre": "falta_modelo_2",
+     "existente": false
+    },
+    {
+     "nombre": "falta_modelo_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.13",
+   "situacion": "Falta elegir el largo de la cadena",
+   "ventana": "ambas",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "falta_largo_cadena_1",
+     "existente": false
+    },
+    {
+     "nombre": "falta_largo_cadena_2",
+     "existente": false
+    },
+    {
+     "nombre": "falta_largo_cadena_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.14",
+   "situacion": "Falta el texto del grabado de la cadena (lados)",
+   "ventana": "ambas",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "falta_grabado_cadena_1",
+     "existente": false
+    },
+    {
+     "nombre": "falta_grabado_cadena_2",
+     "existente": false
+    },
+    {
+     "nombre": "falta_grabado_cadena_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.15",
+   "situacion": "Aún estás a tiempo de hacer cambios (antes del taller)",
+   "ventana": "ambas",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "ultimo_cambio_1",
+     "existente": false
+    },
+    {
+     "nombre": "ultimo_cambio_2",
+     "existente": false
+    },
+    {
+     "nombre": "ultimo_cambio_3",
+     "existente": false
+    },
+    {
+     "nombre": "ultimo_cambio_4",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "6.16",
+   "situacion": "Pedir la foto de la mascota (para acertar el color)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "foto_mascota_1",
+     "existente": false
+    },
+    {
+     "nombre": "foto_mascota_2",
+     "existente": false
+    },
+    {
+     "nombre": "foto_mascota_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "7.7",
+   "situacion": "Piedra o material no disponible: proponer alternativa",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "pieza_no_disponible_1",
+     "existente": false
+    },
+    {
+     "nombre": "pieza_no_disponible_2",
+     "existente": false
+    },
+    {
+     "nombre": "pieza_no_disponible_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "7.8",
+   "situacion": "Taller cerrado por festivo o vacaciones",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "taller_festivo_1",
+     "existente": false
+    },
+    {
+     "nombre": "taller_festivo_2",
+     "existente": false
+    },
+    {
+     "nombre": "taller_festivo_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "7.9",
+   "situacion": "Revisión final de calidad antes de mostrar el anillo",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "revision_final_1",
+     "existente": false
+    },
+    {
+     "nombre": "revision_final_2",
+     "existente": false
+    },
+    {
+     "nombre": "revision_final_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "7.10",
+   "situacion": "Hubo un error de fabricación y se rehace",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "rehacer_anillo_1",
+     "existente": false
+    },
+    {
+     "nombre": "rehacer_anillo_2",
+     "existente": false
+    },
+    {
+     "nombre": "rehacer_anillo_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "7.11",
+   "situacion": "Tu anillo estará listo antes de lo previsto",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "listo_antes_1",
+     "existente": false
+    },
+    {
+     "nombre": "listo_antes_2",
+     "existente": false
+    },
+    {
+     "nombre": "listo_antes_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.12",
+   "situacion": "Aviso previo: pagas el envío al recibir",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "pagas_al_recibir_1",
+     "existente": false
+    },
+    {
+     "nombre": "pagas_al_recibir_2",
+     "existente": false
+    },
+    {
+     "nombre": "pagas_al_recibir_3",
+     "existente": false
+    },
+    {
+     "nombre": "pagas_al_recibir_4",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.13",
+   "situacion": "Recibimos tus datos de envío",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "datos_recibidos_1",
+     "existente": false
+    },
+    {
+     "nombre": "datos_recibidos_2",
+     "existente": false
+    },
+    {
+     "nombre": "datos_recibidos_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.14",
+   "situacion": "Faltan datos de envío (cédula, barrio, celular)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "envio_faltan_1",
+     "existente": false
+    },
+    {
+     "nombre": "envio_faltan_2",
+     "existente": false
+    },
+    {
+     "nombre": "envio_faltan_3",
+     "existente": false
+    },
+    {
+     "nombre": "envio_faltan_4",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.15",
+   "situacion": "Tu pedido llega hoy",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "llega_hoy_1",
+     "existente": false
+    },
+    {
+     "nombre": "llega_hoy_2",
+     "existente": false
+    },
+    {
+     "nombre": "llega_hoy_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "8.16",
+   "situacion": "Se entregó a un tercero o en portería",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "entrega_tercero_1",
+     "existente": false
+    },
+    {
+     "nombre": "entrega_tercero_2",
+     "existente": false
+    },
+    {
+     "nombre": "entrega_tercero_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "9.16",
+   "situacion": "Seguimiento de un reclamo abierto",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "seguimiento_reclamo_1",
+     "existente": false
+    },
+    {
+     "nombre": "seguimiento_reclamo_2",
+     "existente": false
+    },
+    {
+     "nombre": "seguimiento_reclamo_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "9.17",
+   "situacion": "Pedimos fotos o datos para un reclamo y no llegaron",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "reclamo_faltan_fotos_1",
+     "existente": false
+    },
+    {
+     "nombre": "reclamo_faltan_fotos_2",
+     "existente": false
+    },
+    {
+     "nombre": "reclamo_faltan_fotos_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "9.18",
+   "situacion": "Reclamo resuelto: cierre y disculpa",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "reclamo_resuelto_1",
+     "existente": false
+    },
+    {
+     "nombre": "reclamo_resuelto_2",
+     "existente": false
+    },
+    {
+     "nombre": "reclamo_resuelto_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "9.19",
+   "situacion": "Confirmación de cancelación y coordinación del abono",
+   "ventana": "ambas",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "cancelacion_confirmada_1",
+     "existente": false
+    },
+    {
+     "nombre": "cancelacion_confirmada_2",
+     "existente": false
+    },
+    {
+     "nombre": "cancelacion_confirmada_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "9.20",
+   "situacion": "Cambio confirmado en el pedido",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "cambio_pedido_confirmado",
+     "existente": false
+    },
+    {
+     "nombre": "cambio_hecho_1",
+     "existente": false
+    },
+    {
+     "nombre": "cambio_hecho_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "9.21",
+   "situacion": "Respuesta a una solicitud especial (cotización lista)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "respuesta_especial_1",
+     "existente": false
+    },
+    {
+     "nombre": "respuesta_especial_2",
+     "existente": false
+    },
+    {
+     "nombre": "respuesta_especial_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "9.22",
+   "situacion": "Recibimos tu reclamo (acuse inmediato)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "reclamo_recibido_1",
+     "existente": false
+    },
+    {
+     "nombre": "reclamo_recibido_2",
+     "existente": false
+    },
+    {
+     "nombre": "reclamo_recibido_3",
+     "existente": false
+    },
+    {
+     "nombre": "reclamo_recibido_4",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.15",
+   "situacion": "Llegó la fecha en que dijo que pagaría o escribiría",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "llego_la_fecha_1",
+     "existente": false
+    },
+    {
+     "nombre": "llego_la_fecha_2",
+     "existente": false
+    },
+    {
+     "nombre": "llego_la_fecha_3",
+     "existente": false
+    },
+    {
+     "nombre": "llego_la_fecha_4",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.16",
+   "situacion": "Le respondimos y no contestó (¿te quedó alguna duda?)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "te_quedo_duda_1",
+     "existente": false
+    },
+    {
+     "nombre": "te_quedo_duda_2",
+     "existente": false
+    },
+    {
+     "nombre": "te_quedo_duda_3",
+     "existente": false
+    },
+    {
+     "nombre": "te_quedo_duda_4",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.18",
+   "situacion": "Pidió un producto que aún no tenemos y quedó en espera",
+   "ventana": "fuera",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "producto_disponible_1",
+     "existente": false
+    },
+    {
+     "nombre": "producto_disponible_2",
+     "existente": false
+    },
+    {
+     "nombre": "producto_disponible_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "10.19",
+   "situacion": "Hay cupo en el taller (para quien esperaba)",
+   "ventana": "fuera",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "cupo_taller_1",
+     "existente": false
+    },
+    {
+     "nombre": "cupo_taller_2",
+     "existente": false
+    },
+    {
+     "nombre": "cupo_taller_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.11",
+   "situacion": "Satisfacción: ¿cómo calificas tu experiencia?",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "satisfaccion_1",
+     "existente": false
+    },
+    {
+     "nombre": "satisfaccion_2",
+     "existente": false
+    },
+    {
+     "nombre": "satisfaccion_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.12",
+   "situacion": "¿Cómo nos conociste?",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "como_nos_conociste_1",
+     "existente": false
+    },
+    {
+     "nombre": "como_nos_conociste_2",
+     "existente": false
+    },
+    {
+     "nombre": "como_nos_conociste_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.13",
+   "situacion": "Regalo entregado: ¿cómo reaccionó?",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "como_reacciono_1",
+     "existente": false
+    },
+    {
+     "nombre": "como_reacciono_2",
+     "existente": false
+    },
+    {
+     "nombre": "como_reacciono_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.14",
+   "situacion": "La garantía está por vencer",
+   "ventana": "fuera",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "garantia_por_vencer_1",
+     "existente": false
+    },
+    {
+     "nombre": "garantia_por_vencer_2",
+     "existente": false
+    },
+    {
+     "nombre": "garantia_por_vencer_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.15",
+   "situacion": "Novedad: el anillo de corazón (a quien ya compró o preguntó)",
+   "ventana": "fuera",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "novedad_corazon_1",
+     "existente": false
+    },
+    {
+     "nombre": "novedad_corazon_2",
+     "existente": false
+    },
+    {
+     "nombre": "novedad_corazon_3",
+     "existente": false
+    },
+    {
+     "nombre": "novedad_corazon_4",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.16",
+   "situacion": "Novedad: productos nuevos del taller",
+   "ventana": "fuera",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "novedad_producto_1",
+     "existente": false
+    },
+    {
+     "nombre": "novedad_producto_2",
+     "existente": false
+    },
+    {
+     "nombre": "novedad_producto_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.17",
+   "situacion": "Cumpleaños (de la clienta o de la mascota)",
+   "ventana": "fuera",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "cumpleanos_1",
+     "existente": false
+    },
+    {
+     "nombre": "cumpleanos_2",
+     "existente": false
+    },
+    {
+     "nombre": "cumpleanos_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.18",
+   "situacion": "Fechas del calendario (Madres, Amor y Amistad, Navidad, Día del perro)",
+   "ventana": "fuera",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "fecha_madre_1",
+     "existente": false
+    },
+    {
+     "nombre": "fecha_madre_2",
+     "existente": false
+    },
+    {
+     "nombre": "fecha_amistad_1",
+     "existente": false
+    },
+    {
+     "nombre": "fecha_amistad_2",
+     "existente": false
+    },
+    {
+     "nombre": "fecha_navidad_1",
+     "existente": false
+    },
+    {
+     "nombre": "fecha_navidad_2",
+     "existente": false
+    },
+    {
+     "nombre": "fecha_mascotas_1",
+     "existente": false
+    },
+    {
+     "nombre": "fecha_mascotas_2",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.19",
+   "situacion": "Pedir permiso para enviar novedades (opt-in)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "permiso_novedades_1",
+     "existente": false
+    },
+    {
+     "nombre": "permiso_novedades_2",
+     "existente": false
+    },
+    {
+     "nombre": "permiso_novedades_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.20",
+   "situacion": "Gracias por volver a comprar (segunda compra)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "segunda_compra_1",
+     "existente": false
+    },
+    {
+     "nombre": "segunda_compra_2",
+     "existente": false
+    },
+    {
+     "nombre": "segunda_compra_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "11.21",
+   "situacion": "Servicio posventa: limpieza o revisión del anillo",
+   "ventana": "fuera",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "limpieza_anillo_1",
+     "existente": false
+    },
+    {
+     "nombre": "limpieza_anillo_2",
+     "existente": false
+    },
+    {
+     "nombre": "limpieza_anillo_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "12.9",
+   "situacion": "Aviso: hoy no podemos atenderte al momento",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "no_atendemos_hoy_1",
+     "existente": false
+    },
+    {
+     "nombre": "no_atendemos_hoy_2",
+     "existente": false
+    },
+    {
+     "nombre": "no_atendemos_hoy_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "12.10",
+   "situacion": "Encuesta de atención (tras hablar con una persona)",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "encuesta_atencion_1",
+     "existente": false
+    },
+    {
+     "nombre": "encuesta_atencion_2",
+     "existente": false
+    },
+    {
+     "nombre": "encuesta_atencion_3",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "12.11",
+   "situacion": "Acuse automático: recibimos tu mensaje",
+   "ventana": "ambas",
+   "bloqueada": false,
+   "orden": [
+    {
+     "nombre": "recibimos_tu_mensaje_1",
+     "existente": false
+    },
+    {
+     "nombre": "recibimos_tu_mensaje_2",
+     "existente": false
+    },
+    {
+     "nombre": "recibimos_tu_mensaje_3",
+     "existente": false
+    },
+    {
+     "nombre": "recibimos_tu_mensaje_4",
+     "existente": false
+    }
+   ]
+  },
+  {
+   "grupo": "9.23",
+   "situacion": "Reembolso en proceso o realizado",
+   "ventana": "ambas",
+   "bloqueada": true,
+   "orden": [
+    {
+     "nombre": "reembolso_1",
+     "existente": false
+    },
+    {
+     "nombre": "reembolso_2",
+     "existente": false
+    },
+    {
+     "nombre": "reembolso_3",
+     "existente": false
+    }
+   ]
+  }
+ ]
+}
